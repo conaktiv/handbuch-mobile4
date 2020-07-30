@@ -22,3 +22,7 @@ extra_css:
   - stylesheets/conaktiv.css
 markdown_extensions:
   - admonition
+plugins:
+  - search
+  - mkpdfs:
+      design: mkpdfs-design-sample/report.css

@@ -2,4 +2,20 @@
     --md-primary-fg-color:        #b63d12;
     --md-primary-fg-color--light: #eea78a;
     --md-primary-fg-color--dark:  #6d2105;
-  }
+}
+
+@page {
+    @bottom-left {
+        font-size: 12px;
+        content:   'ConAktiv Mobile4 Handbuch';
+    }
+    @top-right {
+        content: 'Seite ' counter(page);
+    }
+}
+
+@media print {
+    img {
+        width: 100%;
+    }
+}
