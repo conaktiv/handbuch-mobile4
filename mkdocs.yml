@@ -7,6 +7,7 @@ nav:
   - Einstellungen in ConAktiv®: einstellungen_in_conaktiv/
   - Arbeiten mit ConAktiv® Mobile:
     - Anmeldung an ConAktiv: arbeiten_mit_conaktiv_mobile/anmeldung_an_conaktiv/
+    - Kennwort ändern: arbeiten_mit_conaktiv_mobile/kennwort-aendern/
 theme:
   name: material
   language: de
