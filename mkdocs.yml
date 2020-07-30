@@ -1,0 +1,16 @@
+site_name: ConAktiv® Mobile4 Handbuch
+nav:
+  - Home: index.md
+  - Einleitung: einleitung/
+  - Voraussetzungen: voraussetzungen/
+  - Einstellungen des ConAktiv® Web-Servers: einstellungen_des_conaktiv_webservers/
+  - Einstellungen in ConAktiv®: einstellungen_in_conaktiv/
+  - Arbeiten mit ConAktiv® Mobile:
+    - Anmeldung an ConAktiv: arbeiten_mit_conaktiv_mobile/anmeldung_an_conaktiv/
+theme:
+  name: material
+  language: de
+extra_css:
+  - stylesheets/conaktiv.css
+markdown_extensions:
+  - admonition
