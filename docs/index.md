@@ -1,7 +1,3 @@
 # Willkommen
 
-- [Einleitung](./einleitung/)
-- [Voraussetzungen](./voraussetzungen/)
-- [Einstellungen des ConAktiv® Web-Servers](./einstellungen_des_conaktiv_webservers/)
-- [Einstellungen in ConAktiv®](./einstellungen_in_conaktiv/)
-- [Arbeiten mit ConAktiv® Mobile4](./arbeiten_mit_conaktiv_mobile/)
+Sie können über ein Smartphone oder Tablet mit iOS oder Android Betriebssystem (und selbstverständlich auch über einen Desktop Computer oder Laptop), direkt auf die mit ConAktiv® verwalteten zentralen Unternehmensdaten zugreifen. Die webbasierte Benutzeroberfläche erlaubt es den Anwendern, unterwegs auf Adressen, Termine, Infos und Aufgaben zuzugreifen und Stunden- und Materialzettel sowie Reisekostenabrechnungen auszufüllen.
