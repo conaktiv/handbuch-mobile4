@@ -26,3 +26,7 @@ plugins:
   - search
   - mkpdfs:
       design: mkpdfs-design-sample/report.css
+      toc_title: Inhaltsverzeichnis
+      company: Connectivity GmbH
+      author: Stephan Grossmann, Sascha Stumm
+      output_path: pdf/handbuch_mobile4.pdf
