@@ -2,8 +2,10 @@ site_name: ConAktiv® Mobile4 Handbuch
 nav:
   - Einleitung: index.md
   - Voraussetzungen:
-    - Lizenzen: voraussetzungen/lizenzen.md
     - Proxyserver: voraussetzungen/proxyserver.md
+    - Zugriff und SSL-Zertifikate: voraussetzungen/zugriff.md
+    - Web-Browser: voraussetzungen/webbrowser.md
+    - Lizenzen: voraussetzungen/lizenzen.md
   - Einstellungen:
     - Einstellungen des ConAktiv® Web-Servers: einstellungen_des_conaktiv_webservers/index.md
     - Einstellungen in ConAktiv®: einstellungen_in_conaktiv/index.md
