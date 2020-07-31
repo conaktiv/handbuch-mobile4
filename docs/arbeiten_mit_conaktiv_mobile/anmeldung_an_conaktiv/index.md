@@ -6,7 +6,11 @@ Die Adresse des Web-Servers setzt sich zusammen aus einer IP-Adresse oder URL, g
 
 Sollte Ihnen die IP-Adresse oder URL unbekannt sein, wenden Sie sich bitte an Ihren Systemadministrator.
 
-![Anmeldemaske](./anmeldung.png)
+=== "Desktop"
+    ![Anmeldemaske](./anmeldung.png)
+
+=== "Smartphone"
+    ![Anmeldemaske Smartphone](./anmeldung_smartphone.png#smartphone)
 
 Geben Sie in dem sich öffnenden Dialog Ihren vollständigen ConAktiv®-Benutzernamen und Ihr Kennwort ein. Möchten Sie Ihre Zugangsdaten für zukünftige Anmeldungen speichern, dann aktivieren Sie die Checkbox „Zugangsdaten speichern“.
 
@@ -14,8 +18,16 @@ Betätigen Sie die Schaltfläche „Anmelden“.
 
 In einem weiteren Dialog haben Sie die Möglichkeit, den Mandanten zu wählen, an welchen die Anmeldung erfolgen soll, gefolgt von der Benutzergruppe.
 
-![Anmeldemaske für Mandant und Gruppe](./anmeldung_mandant_gruppe.png)
+=== "Desktop"
+    ![Anmeldemaske für Mandant und Gruppe](./anmeldung_mandant_gruppe.png)
+
+=== "Smartphone"
+    ![Anmeldemaske für Mandant und Gruppe Smartphone](./anmeldung_mandant_gruppe_smartphone.png#smartphone)
 
 Betätigen Sie die Schaltfläche „Weiter“, so erfolgt die Anmeldung an ConAktiv® und Sie gelangen auf die Startseite der ConAktiv® Mobile4.
 
-![Startseite](./startseite.png)
+=== "Desktop"
+    ![Startseite](./startseite.png)
+
+=== "Smartphone"
+    ![Startseite](./startseite_smartphone.png#smartphone)
