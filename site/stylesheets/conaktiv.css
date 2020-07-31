@@ -2,6 +2,16 @@
     --md-primary-fg-color:        #b63d12;
     --md-primary-fg-color--light: #eea78a;
     --md-primary-fg-color--dark:  #6d2105;
+    --md-accent-fg-color:         #b63d12;
+}
+
+article img {
+    border:        1px #505050 solid;
+    border-radius: 3px;
+    box-shadow:    0 0 5px #ccc;
+}
+img[src*="#smartphone"] {
+    max-height: 600px;
 }
 
 @page {
