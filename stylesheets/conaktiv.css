@@ -10,6 +10,12 @@ article img {
     border-radius: 3px;
     box-shadow:    0 0 5px #ccc;
 }
+article img[align="right"] {
+    margin-left: 16px;
+}
+article img[align="left"] {
+    margin-right: 16px;
+}
 img[src*="#smartphone"] {
     max-height: 600px;
 }

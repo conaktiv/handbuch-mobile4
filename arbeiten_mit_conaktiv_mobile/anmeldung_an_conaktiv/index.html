@@ -206,8 +206,44 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+        Anmeldung an ConAktiv
+        <span class="md-nav__icon md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"></path></svg>
+</span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./" title="Anmeldung an ConAktiv">
       Anmeldung an ConAktiv
+    </a>
+<nav aria-label="Inhaltsverzeichnis" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</span>
+      Inhaltsverzeichnis
+    </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#anmeldemaske">
+    Anmeldemaske
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mandant-und-gruppenauswahl">
+    Mandant- und Gruppenauswahl
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#startseite">
+    Startseite
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../navigation/" title="Navigation">
+      Navigation
     </a>
 </li>
 <li class="md-nav__item">
@@ -232,6 +268,29 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Inhaltsverzeichnis" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
+</span>
+      Inhaltsverzeichnis
+    </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#anmeldemaske">
+    Anmeldemaske
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mandant-und-gruppenauswahl">
+    Mandant- und Gruppenauswahl
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#startseite">
+    Startseite
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -242,6 +301,7 @@
 <p>Starten Sie auf Ihrem Smartphone den Standard-Internetbrowser und geben Sie die Adresse zum Web-Server ein, auf dem ConAktiv® Mobile4 installiert ist.</p>
 <p>Die Adresse des Web-Servers setzt sich zusammen aus einer IP-Adresse oder URL, gefolgt von "/mobile4/". Beachten Sie bitte, dass der letzte Schrägstrich unbedingt eingegeben werden muss, andernfalls wird lediglich eine leere Seite angezeigt.</p>
 <p>Sollte Ihnen die IP-Adresse oder URL unbekannt sein, wenden Sie sich bitte an Ihren Systemadministrator.</p>
+<h2 id="anmeldemaske">Anmeldemaske</h2>
 <div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><label for="__tabbed_1_1">Desktop</label><div class="tabbed-content">
 <p><img alt="Anmeldemaske" src="anmeldung.png"/></p>
 </div>
@@ -251,7 +311,9 @@
 </input></input></div>
 <p>Geben Sie in dem sich öffnenden Dialog Ihren vollständigen ConAktiv®-Benutzernamen und Ihr Kennwort ein. Möchten Sie Ihre Zugangsdaten für zukünftige Anmeldungen speichern, dann aktivieren Sie die Checkbox „Zugangsdaten speichern“.</p>
 <p>Betätigen Sie die Schaltfläche „Anmelden“.</p>
+<h2 id="mandant-und-gruppenauswahl">Mandant- und Gruppenauswahl</h2>
 <p>In einem weiteren Dialog haben Sie die Möglichkeit, den Mandanten zu wählen, an welchen die Anmeldung erfolgen soll, gefolgt von der Benutzergruppe.</p>
+<p>Dieser wird nur angezeigt, wenn es mehrere Mandanten und/oder Gruppen für den Benutzer gibt.</p>
 <div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"><label for="__tabbed_2_1">Desktop</label><div class="tabbed-content">
 <p><img alt="Anmeldemaske für Mandant und Gruppe" src="anmeldung_mandant_gruppe.png"/></p>
 </div>
@@ -260,13 +322,17 @@
 </div>
 </input></input></div>
 <p>Betätigen Sie die Schaltfläche „Weiter“, so erfolgt die Anmeldung an ConAktiv® und Sie gelangen auf die Startseite der ConAktiv® Mobile4.</p>
+<h2 id="startseite">Startseite</h2>
 <div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio"><label for="__tabbed_3_1">Desktop</label><div class="tabbed-content">
 <p><img alt="Startseite" src="startseite.png"/></p>
+<p>Die Desktopansicht bietet eine Startseite mit einer Übersicht über verschiedene Module sowie Informationen zu Urlaubstagen und Zeitbuchungen.</p>
 </div>
 <input id="__tabbed_3_2" name="__tabbed_3" type="radio"><label for="__tabbed_3_2">Smartphone</label><div class="tabbed-content">
 <p><img alt="Startseite" src="startseite_smartphone.png#smartphone"/></p>
+<p>Auf dem Smartphone ist die Startseite eine Übersicht zu aktuellen Unternehmensinformationen.</p>
 </div>
 </input></input></div>
+<p>Was auf der Starseite tatsächlich zu sehen ist, hängt von der Konfiguration der Mobile4 sowie den Rechten des Benutzers ab.</p>
 </article>
 </div>
 </div>
@@ -287,13 +353,13 @@
               </div>
 </div>
 </a>
-<a class="md-footer-nav__link md-footer-nav__link--next" href="../kennwort-aendern/" rel="next" title="Kennwort ändern">
+<a class="md-footer-nav__link md-footer-nav__link--next" href="../navigation/" rel="next" title="Navigation">
 <div class="md-footer-nav__title">
 <div class="md-ellipsis">
 <span class="md-footer-nav__direction">
                   Weiter
                 </span>
-                Kennwort ändern
+                Navigation
               </div>
 </div>
 <div class="md-footer-nav__button md-icon">
