@@ -12,6 +12,7 @@ nav:
   - Arbeiten mit ConAktiv® Mobile:
     - Anmeldung an ConAktiv: arbeiten_mit_conaktiv_mobile/anmeldung_an_conaktiv/index.md
     - Kennwort ändern: arbeiten_mit_conaktiv_mobile/kennwort-aendern/index.md
+    - Abmelden: arbeiten_mit_conaktiv_mobile/abmelden/index.md
 theme:
   name: material
   language: de
