@@ -6,6 +6,8 @@ Die Adresse des Web-Servers setzt sich zusammen aus einer IP-Adresse oder URL, g
 
 Sollte Ihnen die IP-Adresse oder URL unbekannt sein, wenden Sie sich bitte an Ihren Systemadministrator.
 
+## Anmeldemaske
+
 === "Desktop"
     ![Anmeldemaske](./anmeldung.png)
 
@@ -16,7 +18,11 @@ Geben Sie in dem sich öffnenden Dialog Ihren vollständigen ConAktiv®-Benutzer
 
 Betätigen Sie die Schaltfläche „Anmelden“.
 
+## Mandant- und Gruppenauswahl
+
 In einem weiteren Dialog haben Sie die Möglichkeit, den Mandanten zu wählen, an welchen die Anmeldung erfolgen soll, gefolgt von der Benutzergruppe.
+
+Dieser wird nur angezeigt, wenn es mehrere Mandanten und/oder Gruppen für den Benutzer gibt.
 
 === "Desktop"
     ![Anmeldemaske für Mandant und Gruppe](./anmeldung_mandant_gruppe.png)
@@ -26,8 +32,18 @@ In einem weiteren Dialog haben Sie die Möglichkeit, den Mandanten zu wählen, a
 
 Betätigen Sie die Schaltfläche „Weiter“, so erfolgt die Anmeldung an ConAktiv® und Sie gelangen auf die Startseite der ConAktiv® Mobile4.
 
+## Startseite
+
 === "Desktop"
+
     ![Startseite](./startseite.png)
 
+    Die Desktopansicht bietet eine Startseite mit einer Übersicht über verschiedene Module sowie Informationen zu Urlaubstagen und Zeitbuchungen.
+
 === "Smartphone"
+
     ![Startseite](./startseite_smartphone.png#smartphone)
+
+    Auf dem Smartphone ist die Startseite eine Übersicht zu aktuellen Unternehmensinformationen.
+
+Was auf der Starseite tatsächlich zu sehen ist, hängt von der Konfiguration der Mobile4 sowie den Rechten des Benutzers ab.

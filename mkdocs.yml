@@ -11,6 +11,7 @@ nav:
     - Einstellungen in ConAktiv®: einstellungen_in_conaktiv/index.md
   - Arbeiten mit ConAktiv® Mobile:
     - Anmeldung an ConAktiv: arbeiten_mit_conaktiv_mobile/anmeldung_an_conaktiv/index.md
+    - Navigation: arbeiten_mit_conaktiv_mobile/navigation/index.md
     - Kennwort ändern: arbeiten_mit_conaktiv_mobile/kennwort-aendern/index.md
     - Abmelden: arbeiten_mit_conaktiv_mobile/abmelden/index.md
 theme:
@@ -24,6 +25,7 @@ extra_css:
 markdown_extensions:
   - admonition
   - pymdownx.tabbed
+  - attr_list
 plugins:
   - search
   - mkpdfs:
