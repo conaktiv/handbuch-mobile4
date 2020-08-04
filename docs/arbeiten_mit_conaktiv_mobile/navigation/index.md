@@ -1,20 +1,20 @@
 # Navigation
 
-## Begriffserklärung
+## Navigationsmöglichkeiten
 
 === "Desktop"
 
-    ![Schnellzugriff Desktop](desktop_schnellzugriff.png)
-
     Die ConAktiv Mobile4 bietet in der **Schnellzugriffleiste** die meist benötigten Seiten an.
 
-    ![Menü Desktop](desktop_menue.png)
+    ![Schnellzugriff Desktop](desktop_schnellzugriff.png)
 
     Alle weiteren Seiten (sowie die Seiten aus dem Schnellzugriff) sind über die **Menüleiste** erreichbar.
 
     Diese ist in Menüs unterteilt.
 
     Durch Überfahren eines Menüs mit dem Mauszeiger werden die Seiten dieses Menüs angezeigt.
+
+    ![Menü Desktop](desktop_menue.png)
 
 === "Smartphone"
 

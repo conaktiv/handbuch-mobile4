@@ -19,6 +19,15 @@ article img[align="left"] {
 img[src*="#smartphone"] {
     max-height: 600px;
 }
+article .number {
+    display:          inline-block;
+    width:            1.55em;
+    height:           1.55em;
+    text-align:       center;
+    color:            #fff;
+    background-color: #f00;
+    border-radius:    25px;
+}
 
 @page {
     @bottom-left {

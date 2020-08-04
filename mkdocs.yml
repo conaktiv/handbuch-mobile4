@@ -12,6 +12,13 @@ nav:
   - Arbeiten mit ConAktiv® Mobile:
     - Anmeldung an ConAktiv: arbeiten_mit_conaktiv_mobile/anmeldung_an_conaktiv/index.md
     - Navigation: arbeiten_mit_conaktiv_mobile/navigation/index.md
+    - Arbeiten mit Infos: arbeiten_mit_conaktiv_mobile/arbeiten-mit-infos/index.md
+    #- Arbeiten mit Ansprechpartnern: arbeiten_mit_conaktiv_mobile/arbeiten-mit-ansprechpartnern/index.md
+    #- Arbeiten mit Terminen: arbeiten_mit_conaktiv_mobile/arbeiten-mit-terminen/index.md
+    #- Arbeiten mit Aufgaben: arbeiten_mit_conaktiv_mobile/arbeiten-mit-aufgaben/index.md
+    #- Arbeiten im Stundenzettel: arbeiten_mit_conaktiv_mobile/arbeiten-im-stundenzettel/index.md
+    #- Arbeiten mit Projektmaterial: arbeiten_mit_conaktiv_mobile/arbeiten-mit-projektmaterial/index.md
+    #- Arbeiten mit Reisekosten: arbeiten_mit_conaktiv_mobile/arbeiten-mit-reisekosten/index.md
     - Kennwort ändern: arbeiten_mit_conaktiv_mobile/kennwort-aendern/index.md
     - Abmelden: arbeiten_mit_conaktiv_mobile/abmelden/index.md
 theme:
