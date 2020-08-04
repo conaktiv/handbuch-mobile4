@@ -163,3 +163,19 @@ Möchten Sie wieder zurück zur Infoliste, betätigen Sie die Schaltfläche "Zur
     Sie gelangen auf die Datensatzansicht der Info, wo Sie im Abfragebereich "Löschen" <span class="number">1</span> wählen, um die Info endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>, um zurück auf die Infoliste bzw. auf die Datensatzansicht der Info zu gelangen.
 
     <div style="clear: both;"></div>
+
+## Suchen
+
+![Smartphone Suche Eingabe](smartphone_suche_eingabe.png#smartphone){ align=right }
+
+Durch Tippen auf das Eingabefeld "Stichwort suchen" <span class="number">1</span> können Sie eine Freitextsuche in der Infoliste starten. Ein kleines Popup <span class="number">2</span> zeigt, in welchen Datensatzfeldern die Suche stattfindet.
+
+Die Suche ist unscharf, d.h. für die Suche nach "Geburtstag" können Sie stattdessen auch nur "geburt" oder "tag" eingeben.
+
+<div style="clear: both;"></div>
+
+![Smartphone Suche Ergebnis](smartphone_suche_ergebnis.png#smartphone){ align=right }
+
+Nach Betätigen der Eingabe- oder Tabtaste erscheinen die Suchergebnisse. Mit Klick auf "X" <span class="number">1</span> wird die Freitextsuche zurückgesetzt.
+
+<div style="clear: both;"></div>
