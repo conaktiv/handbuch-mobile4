@@ -1,14 +1,14 @@
 site_name: ConAktiv® Mobile4 Handbuch
 nav:
   - Einleitung: index.md
-  - Webserver und Zugriff:
-    - Proxyserver: webserver_und_zugriff/proxyserver.md
-    - Zugriff und SSL-Zertifikate: webserver_und_zugriff/zugriff.md
+  - Voraussetzungen:
     - Web-Browser: webserver_und_zugriff/webbrowser.md
     - Lizenzen: webserver_und_zugriff/lizenzen.md
   - Einstellungen:
     - Einstellungen des ConAktiv® Web-Servers: einstellungen_des_conaktiv_webservers/index.md
     - Einstellungen in ConAktiv®: einstellungen_in_conaktiv/index.md
+    - Proxyserver: webserver_und_zugriff/proxyserver.md
+    - Zugriff und SSL-Zertifikate: webserver_und_zugriff/zugriff.md
   - Arbeiten mit ConAktiv® Mobile:
     - Anmeldung an ConAktiv: arbeiten_mit_conaktiv_mobile/anmeldung_an_conaktiv/index.md
     - Navigation: arbeiten_mit_conaktiv_mobile/navigation/index.md
