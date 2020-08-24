@@ -1,4 +1,4 @@
-# Arbeiten mit Infos
+# Arbeiten mit einem Modul
 
 === "Desktop"
 
