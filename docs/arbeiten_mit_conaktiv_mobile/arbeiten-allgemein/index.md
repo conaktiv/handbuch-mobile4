@@ -1,30 +1,108 @@
-# Arbeiten mit Infos
+# Arbeiten mit einem Modul
 
-=== "Desktop"
+Da die Konfiguration für viele Module das gleiche Schema verfolgt, wird hier am Beispiel der Ansprechpartner erklärt, wie mit einem Modul gearbeitet werden kann.
 
-    Direkt auf der Startseite werden Ihnen in der Standardauslieferung der ConAktiv® Mobile die Infos angezeigt <span class="number">1</span>.
+## Listenfunktionen
 
-    Natürlich gibt es auch eine eigene Seite für die Infos, die über die [Menüleiste](../navigation/) erreichbar ist <span class="number">2</span>.
+### Datensätze anzeigen
 
-    ![Desktop Startseite](desktop_startseite.png)
-
-=== "Smartphone"
-
-    Die Infos werden Ihnen in der Standardauslieferung der ConAktiv® Mobile direkt als erste Seite nach dem Anmelden angezeigt.
-
-    ![Smartphone Startseite](smartphone_startseite.png#smartphone)
-
-## Anzeigen
-
-Um eine Info anzuzeigen und zu ändern, wählen Sie den gewünschten Eintrag in der Infoliste an.
+Nach der [Navigation](../navigation/index.md) zu der Seite für die Ansprechpartner werden diese als Liste angezeigt.
 
 === "Desktop"
 
     ![Desktop Liste](desktop_liste.png)
 
+    In der Desktop Ansicht ist der Bildschirm aufgeteilt, mit der Liste der Ansprechpartner auf der linken Seite und rechts daneben die Datensatz Ansicht eines Eintrags.
+    
+    Die Liste ist so eingestellt, dass initial noch keine Datensätze angezeigt werden. Durch Klick auf den Button "Alle Datensätze anzeigen" werden diese geladen und angezeigt.
+
+    ![Desktop Liste Datensaetze](desktop_liste_datensaetze.png)
+
 === "Smartphone"
 
-    ![Smartphone Liste](smartphone_startseite.png#smartphone)
+    ...
+
+### Blättern
+
+Werden mehr Ergebnisse gefunden, als die Liste pro Seite anzeigen kann, wird ein Blättern-Element eingeblendet.
+
+![Desktop Liste PagerButton](desktop_liste_pagerbutton.png)
+
+Mit Klick auf <span class="number">2</span> wird eine Seite zurück, mit Klick auf <span class="number">3</span> eine Seite weitergeblättert.
+
+Durch Klick auf <span class="number">1</span> öffnet sich ein Popupfenster, in dem weitere Informationen angezeigt und in größeren Sprüngen zwischen den Seiten navigiert werden kann.
+
+![Desktop Liste Pager](desktop_liste_pager.png)
+
+<span class="number">1</span> springt zur ersten Seite.
+
+<span class="number">3</span> springt zur letzten Seite.
+
+<span class="number">2</span> erlaubt den Sprung zu einer der benachbarten Seiten.
+
+### Freitextsuche
+
+Durch Klick auf das Eingabefeld "Stichwort suchen" können Sie eine Freitextsuche in der Liste starten.
+
+![Desktop Liste Freitextsuche](desktop_liste_freitextsuche.png)
+
+Ein kleines Popup zeigt, in welchen Datensatzfeldern die Suche stattfindet.
+
+![Desktop Liste Freitextsuche Popup](desktop_liste_freitextsuche_popup.png)
+
+Die Suche ist unscharf, d.h. für die Suche nach "Stefan Aller" können Sie stattdessen auch nur "Stefan" oder  "Ste" oder "Aller" eingeben.
+
+Nach Betätigen der Eingabe- oder Tabtaste erscheinen die Suchergebnisse. Mit Klick auf "X" <span class="number">1</span> wird die Freitextsuche zurückgesetzt.
+
+![Desktop Suche Ergebnis](desktop_liste_freitextsuche_loeschen.png)
+
+### Filter anwenden
+
+Neben der Freitextsuche gibt es weitere Möglichkeiten, um die Ergebnisse einzuengen.
+
+Diese werden in der ConAktiv® Mobile4 "Filter" genannt und verbergen sich hinter dem Filter-Icon:
+
+![Desktop Liste Filter Button](desktop_liste_suchfilterbutton.png)
+
+Dieses öffnet nach einem Klick eine Seitenleiste mit den für diese Liste konfigurierten Filtern:
+
+![Desktop Liste Filter Button](desktop_liste_suchfilter.png)
+
+In diesem Beispiel stehen drei Filter zur Verfügung:
+
+1. Alle
+2. Favoriten
+3. Suchfilter
+
+### Sortierung anzeigen
+
+Die Sortierung einer Liste lässt sich durch einen Klick auf den "Sortierung"-Button anzeigen:
+
+![Desktop Liste Sortierungbutton](desktop_liste_sortierbutton.png)
+
+Es erscheint ein Popup, in dem alle Felder aufgeführt sind, nach denen die Liste sortiert ist:
+
+![Desktop Liste Sortierung](desktop_liste_sortierung.png)
+
+**"Feld"** zeigt den Feldnamen an, wie er in der Struktur vom Anwender hinterlegt wurde.
+
+**"Richtung"** zeigt an, ob auf- oder absteigend sortiert wird.
+
+Wird nach dem Feld gruppiert, zeigt die Spalte **"Gruppiert"** einen Haken an.
+
+## Datensatz
+
+### Anzeigen
+
+Um einen Datensatz anzuzeigen und zu ändern, wählen Sie den gewünschten Eintrag in der Liste an.
+
+=== "Desktop"
+
+    ...
+
+=== "Smartphone"
+
+    ...
 
 Sie gelangen zur Datensatzansicht der Info, die alle Details anzeigt.
 
@@ -32,13 +110,13 @@ Möchten Sie wieder zurück zur Infoliste, betätigen Sie die Schaltfläche "Zur
 
 === "Desktop"
 
-    ![Desktop Datensatz](desktop_datensatz.png)
+    ...
 
 === "Smartphone"
 
-    ![Smartphone Datensatz](smartphone_datensatz.png#smartphone)
+    ...
 
-## Bearbeiten
+### Bearbeiten
 
 === "Desktop"
 
@@ -46,9 +124,9 @@ Möchten Sie wieder zurück zur Infoliste, betätigen Sie die Schaltfläche "Zur
 
     Oder fahren Sie in der Infoliste mit der Maus über einen Eintrag und wählen die Direktaktion "Bearbeiten" <span class="number">2</span>.
 
-    ![Desktop Bearbeiten Datensatz](desktop_bearbeiten_datensatz.png)
+    ...
 
-    ![Desktop Bearbeiten Liste](desktop_bearbeiten_liste.png)
+    ...
 
     Die Seite zur Bearbeitung einer Info wird geöffnet und Sie können die gewünschten Änderungen vornehmen.
 
@@ -56,25 +134,25 @@ Möchten Sie wieder zurück zur Infoliste, betätigen Sie die Schaltfläche "Zur
 
     Möchten Sie die getätigten Änderungen verwerfen, dann betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>.
 
-    ![Desktop Bearbeiten Aktionen](desktop_bearbeiten_aktionen.png)
+    ...
 
     Sie gelangen zurück auf die Infoliste bzw. auf die Datensatzansicht der Info.
 
 === "Smartphone"
 
-    ![Smartphone Bearbeiten Datensatz](smartphone_bearbeiten_datensatz.png#smartphone){ align=right }
+    ...
 
     Wenn Sie die geöffnete Info bearbeiten möchten, betätigen Sie in der Werkzeugleiste die Schaltfläche "Bearbeiten" <span class="number">1</span>.
 
     <div style="clear: both;"></div>
 
-    ![Smartphone Bearbeiten Liste](smartphone_bearbeiten_liste.png#smartphone){ align=right }
+    ...
 
     Oder ziehen Sie in der Infoliste mit dem Finger nach links über einen Eintrag und wählen die Direktaktion "Bearbeiten" <span class="number">2</span>.
 
     <div style="clear: both;"></div>
 
-    ![Smartphone Bearbeiten Aktionen](smartphone_bearbeiten_aktionen.png#smartphone){ align=right }
+    ...
 
     Die Seite zur Bearbeitung einer Info wird geöffnet und Sie können die gewünschten Änderungen vornehmen.
 
@@ -86,31 +164,31 @@ Möchten Sie wieder zurück zur Infoliste, betätigen Sie die Schaltfläche "Zur
 
     Sie gelangen zurück auf die Infoliste bzw. auf die Datensatzansicht der Info.
 
-## Erstellen
+### Erstellen
 
 === "Desktop"
 
     Um eine neue Info zu erstellen, betätigen Sie in der Infoliste die Schaltfläche "+" <span class="number">1</span>.
 
-    ![Desktop Erstellen Liste](desktop_erstellen_liste.png)
+    ...
 
     Sie gelangen auf die Seite „Erstellen: Info“, auf der Sie in den zur Verfügung stehenden Feldern die gewünschten Eingaben erledigen können.
 
     Nach Abschluss der Eingaben betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>, um die Info zu speichern. Betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>, um die erfassten Informationen nicht zu speichern.
 
-    ![Desktop Erstellen Datensatz](desktop_erstellen_datensatz.png)
+    ...
 
     Sie gelangen zurück in die Infoliste.
 
 === "Smartphone"
 
-    ![Smartphone Erstellen Liste](smartphone_erstellen_liste.png#smartphone){ align=right }
+    ...
 
     Um eine neue Info zu erstellen, betätigen Sie in der Infoliste die Schaltfläche "+" <span class="number">1</span>.
 
     <div style="clear: both;"></div>
 
-    ![Smartphone Erstellen Datensatz](smartphone_erstellen_datensatz.png#smartphone){ align=right } 
+    ...
 
     Sie gelangen auf die Seite „Erstellen: Info“, auf der Sie in den zur Verfügung stehenden Feldern die gewünschten Eingaben erledigen können.
 
@@ -120,62 +198,46 @@ Möchten Sie wieder zurück zur Infoliste, betätigen Sie die Schaltfläche "Zur
 
     Sie gelangen zurück in die Infoliste.
 
-## Löschen
+### Löschen
 
 === "Desktop"
 
     Wenn Sie die geöffnete Info löschen möchten, öffnen Sie die Seitenleiste <span class="number">1</span> und klicken Sie auf "Löschen" <span class="number">2</span>.
 
-    ![Desktop Löschen Datensatz](desktop_loeschen_datensatz.png)
+    ...
 
-    ![Desktop Löschen Datensatz Seitenleiste](desktop_loeschen_datensatz_seitenleiste.png)
+    ...
 
     Oder fahren Sie in der Infoliste mit der Maus über einen Eintrag und wählen die Direktaktion "Löschen" <span class="number">3</span>.
 
-    ![Desktop Löschen Liste](desktop_loeschen_liste.png)
+    ...
 
     Sie gelangen auf die Datensatzansicht der Info, wo Sie im Abfragebereich "Löschen" <span class="number">1</span> wählen, um die Info endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>, um zurück auf die Infoliste bzw. auf die Datensatzansicht der Info zu gelangen.
 
-    ![Desktop Löschen Abfrage](desktop_loeschen_abfrage.png)
+    ...
 
 === "Smartphone"
 
-    ![Smartphone Löschen Datensatz](smartphone_loeschen_datensatz.png#smartphone){ align=right } 
+    ...
 
     Wenn Sie die geöffnete Info löschen möchten, öffnen Sie die Seitenleiste ... <span class="number">1</span>
 
     <div style="clear: both;"></div>
 
-    ![Smartphone Löschen Datensatz Seitenleiste](smartphone_loeschen_datensatz_seitenleiste.png#smartphone){ align=right } 
+    ...
 
     und klicken Sie auf "Löschen" <span class="number">2</span>.
 
     <div style="clear: both;"></div>
 
-    ![Smartphone Löschen Liste](smartphone_loeschen_liste.png#smartphone){ align=right } 
+    ...
 
     Oder ziehen Sie in der Infoliste mit dem Finger nach links über einen Eintrag und wählen die Direktaktion "Löschen" <span class="number">3</span>.
 
     <div style="clear: both;"></div>
 
-    ![Smartphone Löschen Abfrage](smartphone_loeschen_abfrage.png#smartphone){ align=right } 
+    ...
 
     Sie gelangen auf die Datensatzansicht der Info, wo Sie im Abfragebereich "Löschen" <span class="number">1</span> wählen, um die Info endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>, um zurück auf die Infoliste bzw. auf die Datensatzansicht der Info zu gelangen.
 
     <div style="clear: both;"></div>
-
-## Suchen
-
-![Smartphone Suche Eingabe](smartphone_suche_eingabe.png#smartphone){ align=right }
-
-Durch Tippen auf das Eingabefeld "Stichwort suchen" <span class="number">1</span> können Sie eine Freitextsuche in der Infoliste starten. Ein kleines Popup <span class="number">2</span> zeigt, in welchen Datensatzfeldern die Suche stattfindet.
-
-Die Suche ist unscharf, d.h. für die Suche nach "Geburtstag" können Sie stattdessen auch nur "geburt" oder "tag" eingeben.
-
-<div style="clear: both;"></div>
-
-![Smartphone Suche Ergebnis](smartphone_suche_ergebnis.png#smartphone){ align=right }
-
-Nach Betätigen der Eingabe- oder Tabtaste erscheinen die Suchergebnisse. Mit Klick auf "X" <span class="number">1</span> wird die Freitextsuche zurückgesetzt.
-
-<div style="clear: both;"></div>
