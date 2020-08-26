@@ -66,7 +66,7 @@ Diese werden in der ConAktiv® Mobile4 "Filter" genannt und verbergen sich hinte
 
 Dieses öffnet nach einem Klick eine Seitenleiste mit den für diese Liste konfigurierten Filtern:
 
-![Desktop Liste Filter Button](desktop_liste_suchfilter.png)
+![Desktop Liste Filter](desktop_liste_suchfilter.png)
 
 In diesem Beispiel stehen drei Filter zur Verfügung:
 
