@@ -22,13 +22,13 @@
 
     Die ConAktiv Mobile4 bietet in der **Schnellzugriffleiste** die meist benötigten Seiten an.
 
-    <div style="clear: both;"></div>
+    <div class="clear"></div>
 
     ![Menüschalter Smartphone](smartphone_menueschalter.png#smartphone){ align=right }
 
     Alle weiteren Seiten (sowie die Seiten aus dem Schnellzugriff) lassen sich über den **Menüschalter** aufrufen.
 
-    <div style="clear: both;"></div>
+    <div class="clear"></div>
     
     ![Menü Smartphone](smartphone_menue.png#smartphone){ align=right }
 
@@ -36,7 +36,7 @@
 
     Der Übersichtlichkeit halber sind die Seiten in Menüs (z.B. "Kontakt", "Projekt", etc.) gruppiert.
 
-    <div style="clear: both;"></div>
+    <div class="clear"></div>
 
 ## Beispiel Navigation
 

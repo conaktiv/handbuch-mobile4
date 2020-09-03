@@ -19,6 +19,10 @@ article img[align="left"] {
 img[src*="#smartphone"] {
     max-height: 600px;
 }
+img[src*="#small"] {
+    max-width:     50%;
+    margin-bottom: 19px;
+}
 article .number {
     display:          inline-block;
     width:            1.55em;
@@ -27,6 +31,12 @@ article .number {
     color:            #fff;
     background-color: #f00;
     border-radius:    25px;
+}
+article .clear {
+    clear: both;
+}
+article .margin-bottom {
+    margin-bottom:  38px;
 }
 
 @page {
