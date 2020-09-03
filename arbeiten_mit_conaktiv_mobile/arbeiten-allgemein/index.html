@@ -274,8 +274,8 @@
 <nav aria-label="Datensatz" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#anzeigen">
-    Anzeigen
+<a class="md-nav__link" href="#anzeige">
+    Anzeige
   </a>
 </li>
 <li class="md-nav__item">
@@ -369,8 +369,8 @@
 <nav aria-label="Datensatz" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#anzeigen">
-    Anzeigen
+<a class="md-nav__link" href="#anzeige">
+    Anzeige
   </a>
 </li>
 <li class="md-nav__item">
@@ -410,135 +410,180 @@
 <p><img alt="Desktop Liste Datensaetze" src="desktop_liste_datensaetze.png"/></p>
 </div>
 <input id="__tabbed_1_2" name="__tabbed_1" type="radio"><label for="__tabbed_1_2">Smartphone</label><div class="tabbed-content">
-<p>...</p>
+<p><img align="right" alt="Smartphone Liste" src="smartphone_liste.png#smartphone"/></p>
+<p>Diese Liste ist so eingestellt, dass initial noch keine Datensätze angezeigt werden. Durch Klick auf den Button "Alle Datensätze anzeigen" werden diese geladen und angezeigt.</p>
+<p><div class="clear"></div></p>
+<p><img align="right" alt="Smartphone Liste Datensaetze" src="smartphone_liste_datensaetze.png#smartphone"/></p>
+<p>Die Liste der Ansprechpartner auf dem Smartphone.</p>
+<p><div class="clear"></div></p>
 </div>
 </input></input></div>
 <h3 id="blattern">Blättern</h3>
+<p><img align="right" alt="Desktop Liste PagerButton" src="desktop_liste_pagerbutton.png#small"/></p>
 <p>Werden mehr Ergebnisse gefunden, als die Liste pro Seite anzeigen kann, wird ein Blättern-Element eingeblendet.</p>
-<p><img alt="Desktop Liste PagerButton" src="desktop_liste_pagerbutton.png"/></p>
 <p>Mit Klick auf <span class="number">2</span> wird eine Seite zurück, mit Klick auf <span class="number">3</span> eine Seite weitergeblättert.</p>
 <p>Durch Klick auf <span class="number">1</span> öffnet sich ein Popupfenster, in dem weitere Informationen angezeigt und in größeren Sprüngen zwischen den Seiten navigiert werden kann.</p>
-<p><img alt="Desktop Liste Pager" src="desktop_liste_pager.png"/></p>
+<div class="clear margin-bottom"></div>
+<p><img align="right" alt="Desktop Liste Pager" src="desktop_liste_pager.png#small"/></p>
 <p><span class="number">1</span> springt zur ersten Seite.</p>
 <p><span class="number">3</span> springt zur letzten Seite.</p>
 <p><span class="number">2</span> erlaubt den Sprung zu einer der benachbarten Seiten.</p>
+<div class="clear"></div>
 <h3 id="freitextsuche">Freitextsuche</h3>
+<p><img align="right" alt="Desktop Liste Freitextsuche" src="desktop_liste_freitextsuche.png#small"/></p>
 <p>Durch Klick auf das Eingabefeld "Stichwort suchen" können Sie eine Freitextsuche in der Liste starten.</p>
-<p><img alt="Desktop Liste Freitextsuche" src="desktop_liste_freitextsuche.png"/></p>
+<div class="clear margin-bottom"></div>
+<p><img align="right" alt="Desktop Liste Freitextsuche Popup" src="desktop_liste_freitextsuche_popup.png#small"/></p>
 <p>Ein kleines Popup zeigt, in welchen Datensatzfeldern die Suche stattfindet.</p>
-<p><img alt="Desktop Liste Freitextsuche Popup" src="desktop_liste_freitextsuche_popup.png"/></p>
 <p>Die Suche ist unscharf, d.h. für die Suche nach "Stefan Aller" können Sie stattdessen auch nur "Stefan" oder  "Ste" oder "Aller" eingeben.</p>
+<div class="clear margin-bottom"></div>
+<p><img align="right" alt="Desktop Suche Ergebnis" src="desktop_liste_freitextsuche_loeschen.png#small"/></p>
 <p>Nach Betätigen der Eingabe- oder Tabtaste erscheinen die Suchergebnisse. Mit Klick auf "X" <span class="number">1</span> wird die Freitextsuche zurückgesetzt.</p>
-<p><img alt="Desktop Suche Ergebnis" src="desktop_liste_freitextsuche_loeschen.png"/></p>
+<div class="clear"></div>
 <h3 id="filter-anwenden">Filter anwenden</h3>
+<p><img align="right" alt="Desktop Liste Filter Button" src="desktop_liste_suchfilterbutton.png#small"/></p>
 <p>Neben der Freitextsuche gibt es weitere Möglichkeiten, um die Ergebnisse einzuengen.</p>
-<p>Diese werden in der ConAktiv® Mobile4 "Filter" genannt und verbergen sich hinter dem Filter-Icon:</p>
-<p><img alt="Desktop Liste Filter Button" src="desktop_liste_suchfilterbutton.png"/></p>
-<p>Dieses öffnet nach einem Klick eine Seitenleiste mit den für diese Liste konfigurierten Filtern:</p>
-<p><img alt="Desktop Liste Filter" src="desktop_liste_suchfilter.png"/></p>
+<p>Diese werden in der ConAktiv® Mobile4 "Filter" genannt und verbergen sich hinter dem Filter-Icon.</p>
+<div class="clear margin-bottom"></div>
+<p><img align="right" alt="Desktop Liste Filter" src="desktop_liste_suchfilter.png#small"/></p>
+<p>Dieses öffnet nach einem Klick eine Seitenleiste mit den für diese Liste konfigurierten Filtern.</p>
 <p>In diesem Beispiel stehen drei Filter zur Verfügung:</p>
 <ol>
 <li>Alle</li>
 <li>Favoriten</li>
 <li>Suchfilter</li>
 </ol>
+<div class="clear"></div>
 <h3 id="sortierung-anzeigen">Sortierung anzeigen</h3>
-<p>Die Sortierung einer Liste lässt sich durch einen Klick auf den "Sortierung"-Button anzeigen:</p>
-<p><img alt="Desktop Liste Sortierungbutton" src="desktop_liste_sortierbutton.png"/></p>
-<p>Es erscheint ein Popup, in dem alle Felder aufgeführt sind, nach denen die Liste sortiert ist:</p>
-<p><img alt="Desktop Liste Sortierung" src="desktop_liste_sortierung.png"/></p>
+<p><img align="right" alt="Desktop Liste Sortierungbutton" src="desktop_liste_sortierbutton.png#small"/></p>
+<p>Die Sortierung einer Liste lässt sich durch einen Klick auf den "Sortierung"-Button anzeigen.</p>
+<div class="clear margin-bottom"></div>
+<p><img align="right" alt="Desktop Liste Sortierung" src="desktop_liste_sortierung.png#small"/></p>
+<p>Es erscheint ein Popup, in dem alle Felder aufgeführt sind, nach denen die Liste sortiert ist.</p>
 <p><strong>"Feld"</strong> zeigt den Feldnamen an, wie er in der Struktur vom Anwender hinterlegt wurde.</p>
 <p><strong>"Richtung"</strong> zeigt an, ob auf- oder absteigend sortiert wird.</p>
 <p>Wird nach dem Feld gruppiert, zeigt die Spalte <strong>"Gruppiert"</strong> einen Haken an.</p>
+<div class="clear"></div>
 <h2 id="datensatz">Datensatz</h2>
-<h3 id="anzeigen">Anzeigen</h3>
-<p>Um einen Datensatz anzuzeigen und zu ändern, wählen Sie den gewünschten Eintrag in der Liste an.</p>
+<h3 id="anzeige">Anzeige</h3>
 <div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"><label for="__tabbed_2_1">Desktop</label><div class="tabbed-content">
-<p>...</p>
+<p>Um einen Datensatz anzuzeigen, wählen Sie den gewünschten Eintrag in der Liste an.</p>
+<p><img alt="Desktop Datensatz auswählen" src="desktop_datensatz_auswaehlen.png"/></p>
+<p>Dadurch erscheint auf der rechten Seite die Datensatzansicht mit allen Details.</p>
+<p>Diese gliedert sich in verschiedene Bereiche:</p>
+<p><img alt="Desktop Datensatz Ansicht" src="desktop_datensatz_ansicht.png"/></p>
+<p><strong><span class="number">1</span> Titel</strong></p>
+<p>Zeigt die wichtigsten Informationen zum geladenen Datensatz an.</p>
+<p><strong><span class="number">2</span> Verknüpfte Daten</strong></p>
+<p>Ganz links befindet sich in dieser Tableiste immer der Hauptdatensatz (in diesem Beispiel "Ansprechpartner"). Daneben befinden sich Reiter, die auf mit diesem Hauptdatensatz verknüpfte Daten Zugriff gewähren.</p>
+<p><img align="right" alt="Desktop Datensatz Tableiste Mehr Schaltfläche" src="desktop_datensatz_tableiste_mehr_button.png#small"/></p>
+<p><img align="right" alt="Desktop Datensatz Tableiste Mehr Popup" src="desktop_datensatz_tableiste_mehr_popup.png#small"/></p>
+<p>Sollte der Platz für die verknüpften Daten nicht ausreichen, wird eine Schaltfläche mit drei Punkten angezeigt. Ein Klick auf diese öffnet ein Popup, in dem alle Verknüpfungen als Liste angezeigt werden.</p>
+<p><div class="clear"></div></p>
+<p><strong><span class="number">3</span> Werkzeugleiste</strong></p>
+<p>In dieser Leiste finden sich Knöpfe zum Bearbeiten des Datensatzes oder (im Bearbeitungsmodus) auch zum Speichern. Je nach Modul können hier auch weitere Funktionen angezeigt werden.</p>
+<p><strong><span class="number">4</span> Seitenleiste</strong></p>
+<p><img align="right" alt="Desktop Datensatz Seitenleiste Schaltfläche" src="desktop_datensatz_seitenleiste_button.png#small"/></p>
+<p><img align="right" alt="Desktop Datensatz Seitenleiste" src="desktop_datensatz_seitenleiste.png#small"/></p>
+<p>Weitere Funktionen finden sich in der Seitenleiste. Diese wird mit Klick auf die Seitenleisten-Schaltfläche in der Werkzeugleiste geöffnet:</p>
+<p><div class="clear"></div></p>
+<p><strong><span class="number">5</span> Datensatz</strong></p>
+<p>Im Datensatz-Bereich wird die Anzeige- und Eingabemaske angezeigt.</p>
 </div>
 <input id="__tabbed_2_2" name="__tabbed_2" type="radio"><label for="__tabbed_2_2">Smartphone</label><div class="tabbed-content">
-<p>...</p>
-</div>
-</input></input></div>
-<p>Sie gelangen zur Datensatzansicht der Info, die alle Details anzeigt.</p>
-<p>Möchten Sie wieder zurück zur Infoliste, betätigen Sie die Schaltfläche "Zur Liste" <span class="number">1</span>.</p>
-<div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio"><label for="__tabbed_3_1">Desktop</label><div class="tabbed-content">
-<p>...</p>
-</div>
-<input id="__tabbed_3_2" name="__tabbed_3" type="radio"><label for="__tabbed_3_2">Smartphone</label><div class="tabbed-content">
-<p>...</p>
+<p><img align="right" alt="Smartphone Datensatz auswählen" src="smartphone_datensatz_auswaehlen.png#smartphone"/></p>
+<p>Um einen Datensatz anzuzeigen, tippen Sie den gewünschten Eintrag in der Liste an.</p>
+<p><div class="clear margin-bottom"></div></p>
+<p>Sie gelangen zur Seite für die Datensatzansicht, die alle Details anzeigt. Diese gliedert sich in verschiedene Bereiche:</p>
+<p><img align="right" alt="Smartphone Datensatz" src="smartphone_datensatz.png#smartphone"/></p>
+<p><strong><span class="number">1</span> Navigationsleiste</strong></p>
+<p>Die Navigationsleiste zeigt an, von welchen Seiten man auf die aktuelle Seite gekommen ist. Durch Klick auf einen Eintrag oder den Pfeil ganz links gelangt man eine Seite zurück.</p>
+<p><strong><span class="number">2</span> Titel</strong></p>
+<p>Zeigt die wichtigsten Informationen zum geladenen Datensatz an.</p>
+<p><strong><span class="number">3</span> Werkzeugleiste mit Seitenleisten-Schaltfläche</strong></p>
+<p>In dieser Leiste finden sich Knöpfe zum Bearbeiten des Datensatzes oder (im Bearbeitungsmodus) auch zum Speichern. Je nach Modul können hier auch weitere Funktionen angezeigt werden.</p>
+<p><strong><span class="number">4</span> Datensatz</strong></p>
+<p>Im Datensatz-Bereich wird die Anzeige- und Eingabemaske angezeigt.</p>
+<p><div class="clear"></div></p>
 </div>
 </input></input></div>
 <h3 id="bearbeiten">Bearbeiten</h3>
+<div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio"><label for="__tabbed_3_1">Desktop</label><div class="tabbed-content">
+<p><img align="right" alt="Desktop Datensatz Bearbeiten aus Werkzeugleiste" src="desktop_datensatz_bearbeiten_aus_werkzeugleiste.png#small"/></p>
+<p>Um den geöffneten Datensatz zu bearbeiten, betätigen Sie in der Werkzeugleiste die Schaltfläche "Bearbeiten" <span class="number">1</span>.</p>
+<p><div class="clear"></div></p>
+<p><img align="right" alt="Desktop Datensatz Bearbeiten aus Liste" src="desktop_datensatz_bearbeiten_aus_liste.png#small"/></p>
+<p>Oder fahren Sie in der Liste mit der Maus über einen Eintrag und wählen die Direktaktion "Bearbeiten" <span class="number">2</span>.</p>
+<p><div class="clear"></div></p>
+<p>Im Datensatz-Bereich wird die Bearbeitungsmaske geöffnet.</p>
+<p><img alt="Desktop Datensatz Bearbeiten Speichern oder Abbrechen" src="desktop_datensatz_bearbeiten_speichern_oder_abbrechen.png"/></p>
+<p>Haben Sie alle Änderungen erledigt und möchten diese speichern, dann betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>.</p>
+<p>Um die getätigten Änderungen zu verwerfen, betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>.</p>
+<p>Sie gelangen in beiden Fällen zurück in den Ansichtsmodus.</p>
+</div>
+<input id="__tabbed_3_2" name="__tabbed_3" type="radio"><label for="__tabbed_3_2">Smartphone</label><div class="tabbed-content">
+<p><img align="right" alt="Smartphone Datensatz Bearbeiten aus Werkzeugleiste" src="smartphone_datensatz_bearbeiten_aus_werkzeugleiste.png#smartphone"/></p>
+<p>Um den geöffneten Datensatz zu bearbeiten, betätigen Sie in der Werkzeugleiste die Schaltfläche "Bearbeiten" <span class="number">1</span>.</p>
+<p><div class="clear"></div></p>
+<p><img align="right" alt="Smartphone Datensatz Bearbeiten aus Liste" src="smartphone_datensatz_bearbeiten_aus_liste.png#smartphone"/></p>
+<p>Oder ziehen Sie in der Liste mit dem Finger nach links und tippen Sie auf die Direktaktion "Bearbeiten" <span class="number">2</span>.</p>
+<p><div class="clear margin-bottom"></div></p>
+<p>Im Datensatz-Bereich wird die Bearbeitungsmaske geöffnet.</p>
+<p><img align="right" alt="Smartphone Datensatz Bearbeiten Speichern oder Abbrechen" src="smartphone_datensatz_bearbeiten_speichern_oder_abbrechen.png#smartphone"/></p>
+<p>Haben Sie alle Änderungen erledigt und möchten Sie diese speichern, dann betätigen Sie die Schaltfläche "Speichern und Schließen" <span class="number">1</span>.</p>
+<p>Möchten Sie die getätigten Änderungen verwerfen, dann betätigen Sie die Schaltfläche "X" <span class="number">2</span>.</p>
+<p>Sind Sie über die Liste gekommen, gelangen Sie nun dorthin zurück, andernfalls in die Datensatzansicht.</p>
+<p><div class="clear"></div></p>
+</div>
+</input></input></div>
+<h3 id="erstellen">Erstellen</h3>
 <div class="tabbed-set" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio"><label for="__tabbed_4_1">Desktop</label><div class="tabbed-content">
-<p>Wenn Sie die geöffnete Info bearbeiten möchten, betätigen Sie in der Werkzeugleiste die Schaltfläche "Bearbeiten" <span class="number">1</span>.</p>
-<p>Oder fahren Sie in der Infoliste mit der Maus über einen Eintrag und wählen die Direktaktion "Bearbeiten" <span class="number">2</span>.</p>
-<p>...</p>
-<p>...</p>
-<p>Die Seite zur Bearbeitung einer Info wird geöffnet und Sie können die gewünschten Änderungen vornehmen.</p>
-<p>Haben Sie alle Änderungen erledigt und möchten Sie diese speichern, dann betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>.</p>
-<p>Möchten Sie die getätigten Änderungen verwerfen, dann betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>.</p>
-<p>...</p>
-<p>Sie gelangen zurück auf die Infoliste bzw. auf die Datensatzansicht der Info.</p>
+<p>Um einen neuen Datensatz zu erstellen, betätigen Sie in der Liste die Schaltfläche "+" <span class="number">1</span> oder in der Datensatz-Ansicht die Schaltfläche "Erstellen: Ansprechpartner" <span class="number">2</span>.</p>
+<p><img alt="Desktop Datensatz Erstellen Möglichkeiten" src="desktop_datensatz_erstellen_moeglichkeiten.png"/></p>
+<p>In der Datensatz-Ansicht öffnet sich die Eingabemaske, in der Sie in den zur Verfügung stehenden Feldern die gewünschten Eingaben erledigen können.</p>
+<p><img alt="Desktop Datensatz Erstellen Maske" src="desktop_datensatz_erstellen_maske.png"/></p>
+<p>Nach Abschluss der Eingaben betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>, um den Datensatz zu speichern. Betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>, um die erfassten Informationen nicht zu speichern.</p>
 </div>
 <input id="__tabbed_4_2" name="__tabbed_4" type="radio"/><label for="__tabbed_4_2">Smartphone</label><div class="tabbed-content">
-<p>...</p>
-<p>Wenn Sie die geöffnete Info bearbeiten möchten, betätigen Sie in der Werkzeugleiste die Schaltfläche "Bearbeiten" <span class="number">1</span>.</p>
-<p><div style="clear: both;"></div></p>
-<p>...</p>
-<p>Oder ziehen Sie in der Infoliste mit dem Finger nach links über einen Eintrag und wählen die Direktaktion "Bearbeiten" <span class="number">2</span>.</p>
-<p><div style="clear: both;"></div></p>
-<p>...</p>
-<p>Die Seite zur Bearbeitung einer Info wird geöffnet und Sie können die gewünschten Änderungen vornehmen.</p>
-<p>Haben Sie alle Änderungen erledigt und möchten Sie diese speichern, dann betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>.</p>
-<p>Möchten Sie die getätigten Änderungen verwerfen, dann betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>.</p>
-<p><div style="clear: both;"></div></p>
-<p>Sie gelangen zurück auf die Infoliste bzw. auf die Datensatzansicht der Info.</p>
+<p><img align="right" alt="Smartphone Datensatz Erstellen" src="smartphone_datensatz_erstellen.png#smartphone"/></p>
+<p>Um eine neue Info zu erstellen, betätigen Sie in der Liste die Schaltfläche "+".</p>
+<p><div class="clear"></div></p>
+<p><img align="right" alt="Smartphone Datensatz Erstellen Maske" src="smartphone_datensatz_erstellen_maske.png#smartphone"/></p>
+<p>Sie gelangen auf die Seite "Erstellen: Ansprechpartner", auf der Sie in den zur Verfügung stehenden Feldern die gewünschten Eingaben erledigen können.</p>
+<p>Nach Abschluss der Eingaben betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>, um den Datensatz zu speichern.</p>
+<p>Klicken Sie in der Navigationsleiste auf den Pfeil nach links <span class="number">2</span>, um die erfassten Informationen nicht zu speichern.</p>
+<p><div class="clear margin-bottom"></div></p>
+<p>Sie gelangen zurück in die Liste.</p>
 </div>
 </input></div>
-<h3 id="erstellen">Erstellen</h3>
+<h3 id="loschen">Löschen</h3>
 <div class="tabbed-set" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio"/><label for="__tabbed_5_1">Desktop</label><div class="tabbed-content">
-<p>Um eine neue Info zu erstellen, betätigen Sie in der Infoliste die Schaltfläche "+" <span class="number">1</span>.</p>
-<p>...</p>
-<p>Sie gelangen auf die Seite „Erstellen: Info“, auf der Sie in den zur Verfügung stehenden Feldern die gewünschten Eingaben erledigen können.</p>
-<p>Nach Abschluss der Eingaben betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>, um die Info zu speichern. Betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>, um die erfassten Informationen nicht zu speichern.</p>
-<p>...</p>
-<p>Sie gelangen zurück in die Infoliste.</p>
+<p><img align="right" alt="Desktop Datensatz Löschen Schaltfläche" src="desktop_datensatz_loeschen_schaltflaeche.png#small"/></p>
+<p>Um den geöffneten Datensatz zu löschen, fahren Sie mit der Maus in der Seitenleiste über das Mülleimer-Symbol <span class="number">1</span>.</p>
+<p><div class="clear"></div></p>
+<p><img align="right" alt="Desktop Datensatz Löschen Schaltfläche Erweitert" src="desktop_datensatz_loeschen_schaltflaeche_erweitert.png#small"/></p>
+<p>Dieses erweitert sich und zeigt den Text "Löschen" an <span class="number">2</span>.</p>
+<p>Klicken Sie nun, um in die Löschen-Ansicht zu gelangen.</p>
+<p><div class="clear"></div></p>
+<div class="admonition info">
+<p class="admonition-title">Manche Listen bieten auch eine Direktaktion zum Löschen, die beim Überfahren des Listeneintrags angezeigt wird.</p>
+</div>
+<p><img alt="Desktop Datensatz Löschen Abfrage" src="desktop_datensatz_loeschen_abfrage.png"/></p>
+<p>Wählen Sie hier "Löschen" <span class="number">1</span>, um den Datensatz endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>.</p>
 </div>
 <input id="__tabbed_5_2" name="__tabbed_5" type="radio"/><label for="__tabbed_5_2">Smartphone</label><div class="tabbed-content">
-<p>...</p>
-<p>Um eine neue Info zu erstellen, betätigen Sie in der Infoliste die Schaltfläche "+" <span class="number">1</span>.</p>
-<p><div style="clear: both;"></div></p>
-<p>...</p>
-<p>Sie gelangen auf die Seite „Erstellen: Info“, auf der Sie in den zur Verfügung stehenden Feldern die gewünschten Eingaben erledigen können.</p>
-<p>Nach Abschluss der Eingaben betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>, um die Info zu speichern. Betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>, um die erfassten Informationen nicht zu speichern.</p>
-<p><div style="clear: both;"></div></p>
-<p>Sie gelangen zurück in die Infoliste.</p>
+<p><img align="right" alt="Smartphone Datensatz Löschen Seitenleiste" src="smartphone_datensatz_loeschen_seitenleiste.png#smartphone"/></p>
+<p>Um den geöffneten Datensatz zu löschen, öffnen Sie zunächst die Seitenleiste über das Hamburger-Symbol.</p>
+<p><div class="clear"></div></p>
+<p><img align="right" alt="Smartphone Datensatz Löschen Schaltfläche" src="smartphone_datensatz_loeschen_schaltflaeche.png#smartphone"/></p>
+<p>In der geöffneten Seitenleiste tippen Sie die Schaltfläche "Löschen" an.</p>
+<p><div class="clear"></div></p>
+<div class="admonition info">
+<p class="admonition-title">Manche Listen bieten auch eine Direktaktion zum Löschen, die durch Ziehen nach links über dem Listeneintrag angezeigt wird.</p>
 </div>
-</div>
-<h3 id="loschen">Löschen</h3>
-<div class="tabbed-set" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio"/><label for="__tabbed_6_1">Desktop</label><div class="tabbed-content">
-<p>Wenn Sie die geöffnete Info löschen möchten, öffnen Sie die Seitenleiste <span class="number">1</span> und klicken Sie auf "Löschen" <span class="number">2</span>.</p>
-<p>...</p>
-<p>...</p>
-<p>Oder fahren Sie in der Infoliste mit der Maus über einen Eintrag und wählen die Direktaktion "Löschen" <span class="number">3</span>.</p>
-<p>...</p>
-<p>Sie gelangen auf die Datensatzansicht der Info, wo Sie im Abfragebereich "Löschen" <span class="number">1</span> wählen, um die Info endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>, um zurück auf die Infoliste bzw. auf die Datensatzansicht der Info zu gelangen.</p>
-<p>...</p>
-</div>
-<input id="__tabbed_6_2" name="__tabbed_6" type="radio"/><label for="__tabbed_6_2">Smartphone</label><div class="tabbed-content">
-<p>...</p>
-<p>Wenn Sie die geöffnete Info löschen möchten, öffnen Sie die Seitenleiste ... <span class="number">1</span></p>
-<p><div style="clear: both;"></div></p>
-<p>...</p>
-<p>und klicken Sie auf "Löschen" <span class="number">2</span>.</p>
-<p><div style="clear: both;"></div></p>
-<p>...</p>
-<p>Oder ziehen Sie in der Infoliste mit dem Finger nach links über einen Eintrag und wählen die Direktaktion "Löschen" <span class="number">3</span>.</p>
-<p><div style="clear: both;"></div></p>
-<p>...</p>
-<p>Sie gelangen auf die Datensatzansicht der Info, wo Sie im Abfragebereich "Löschen" <span class="number">1</span> wählen, um die Info endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>, um zurück auf die Infoliste bzw. auf die Datensatzansicht der Info zu gelangen.</p>
-<p><div style="clear: both;"></div></p>
+<p><img align="right" alt="Smartphone Datensatz Löschen Abfrage" src="smartphone_datensatz_loeschen_abfrage.png#smartphone"/></p>
+<p>Wählen Sie hier "Löschen" <span class="number">1</span>, um den Datensatz endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>.</p>
+<p><div class="clear"></div></p>
 </div>
 </div>
 </article>
