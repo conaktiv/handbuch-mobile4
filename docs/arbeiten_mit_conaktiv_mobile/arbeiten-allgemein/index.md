@@ -92,25 +92,56 @@ Wird nach dem Feld gruppiert, zeigt die Spalte **"Gruppiert"** einen Haken an.
 
 ## Datensatz
 
-### Anzeigen
+### Anzeige
 
 Um einen Datensatz anzuzeigen und zu ändern, wählen Sie den gewünschten Eintrag in der Liste an.
 
 === "Desktop"
 
-    ...
+    ![Desktop Datensatz auswählen](desktop_datensatz_auswaehlen.png)
 
 === "Smartphone"
 
     ...
 
-Sie gelangen zur Datensatzansicht der Info, die alle Details anzeigt.
+Sie gelangen zur Datensatzansicht, die alle Details anzeigt.
 
-Möchten Sie wieder zurück zur Infoliste, betätigen Sie die Schaltfläche "Zur Liste" <span class="number">1</span>.
 
 === "Desktop"
 
-    ...
+    Diese gliedert sich in verschiedene Bereiche:
+
+    ![Desktop Datensatz Ansicht](desktop_datensatz_ansicht.png)
+
+    #### <span class="number">1</span> Titel
+
+    Zeigt die wichtigsten Informationen zum geladenen Datensatz an.
+
+    #### <span class="number">2</span> Verknüpfte Daten
+
+    Ganz links befindet sich in dieser Tableiste immer der Hauptdatensatz (in diesem Beispiel "Ansprechpartner"). Daneben befinden sich Reiter, die auf mit diesem Hauptdatensatz verknüpfte Daten Zugriff gewähren.
+
+    Sollte der Platz für die verknüpften Daten nicht ausreichen, wird ein Knopf mit drei Punkten angezeigt. Ein Klick auf diesen öffnet ein Popup, in dem alle Verknüpfungen als Liste angezeigt werden.
+
+    ![Desktop Datensatz Tableiste Mehr Knopf](desktop_datensatz_tableiste_mehr_button.png#smartphone)
+
+    ![Desktop Datensatz Tableiste Mehr Popup](desktop_datensatz_tableiste_mehr_popup.png#smartphone)
+
+    #### <span class="number">3</span> Werkzeugleiste
+
+    In dieser Leiste finden sich Knöpfe zum Bearbeiten des Datensatzes oder (im Bearbeitungsmodus) auch zum Speichern. Je nach Modul können hier auch weitere Funktionen angezeigt werden.
+
+    #### <span class="number">4</span> Seitenleiste
+
+    Weitere Funktionen finden sich in der Seitenleiste. Diese wird mit Klick auf den Seitenleistenknopf in der Werkzeugleiste geöffnet:
+
+    ![Desktop Datensatz Seitenleiste Knopf](desktop_datensatz_seitenleiste_button.png#smartphone)
+
+    ![Desktop Datensatz Seitenleiste](desktop_datensatz_seitenleiste.png#smartphone)
+
+    #### <span class="number">5</span> Datensatz
+
+    Im Datensatz-Bereich wird die Anzeige- und Eingabemaske angezeigt.
 
 === "Smartphone"
 
