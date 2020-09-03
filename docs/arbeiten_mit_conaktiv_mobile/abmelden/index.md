@@ -1,6 +1,6 @@
 # Abmelden
 
-Um sich von ConAktiv® Mobile abzumelden, öffnen Sie das Menü "Verwaltung" und betätigen die Schaltfläche "Abmelden".
+Um sich von ConAktiv® Mobile abzumelden, öffnen Sie das Menü "Verwaltung" <span class="number">1</span> und betätigen die Schaltfläche "Abmelden" <span class="number">2</span>.
 
 === "Desktop"
 

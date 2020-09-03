@@ -121,9 +121,9 @@ Sie gelangen zur Datensatzansicht, die alle Details anzeigt.
 
     Ganz links befindet sich in dieser Tableiste immer der Hauptdatensatz (in diesem Beispiel "Ansprechpartner"). Daneben befinden sich Reiter, die auf mit diesem Hauptdatensatz verknüpfte Daten Zugriff gewähren.
 
-    Sollte der Platz für die verknüpften Daten nicht ausreichen, wird ein Knopf mit drei Punkten angezeigt. Ein Klick auf diesen öffnet ein Popup, in dem alle Verknüpfungen als Liste angezeigt werden.
+    Sollte der Platz für die verknüpften Daten nicht ausreichen, wird eine Schaltfläche mit drei Punkten angezeigt. Ein Klick auf diesen öffnet ein Popup, in dem alle Verknüpfungen als Liste angezeigt werden.
 
-    ![Desktop Datensatz Tableiste Mehr Knopf](desktop_datensatz_tableiste_mehr_button.png#smartphone)
+    ![Desktop Datensatz Tableiste Mehr Schaltfläche](desktop_datensatz_tableiste_mehr_button.png#smartphone)
 
     ![Desktop Datensatz Tableiste Mehr Popup](desktop_datensatz_tableiste_mehr_popup.png#smartphone)
 
@@ -133,9 +133,9 @@ Sie gelangen zur Datensatzansicht, die alle Details anzeigt.
 
     #### <span class="number">4</span> Seitenleiste
 
-    Weitere Funktionen finden sich in der Seitenleiste. Diese wird mit Klick auf den Seitenleistenknopf in der Werkzeugleiste geöffnet:
+    Weitere Funktionen finden sich in der Seitenleiste. Diese wird mit Klick auf die Seitenleisten-Schaltfläche in der Werkzeugleiste geöffnet:
 
-    ![Desktop Datensatz Seitenleiste Knopf](desktop_datensatz_seitenleiste_button.png#smartphone)
+    ![Desktop Datensatz Seitenleiste Schaltfläche](desktop_datensatz_seitenleiste_button.png#smartphone)
 
     ![Desktop Datensatz Seitenleiste](desktop_datensatz_seitenleiste.png#smartphone)
 
@@ -151,23 +151,23 @@ Sie gelangen zur Datensatzansicht, die alle Details anzeigt.
 
 === "Desktop"
 
-    Wenn Sie die geöffnete Info bearbeiten möchten, betätigen Sie in der Werkzeugleiste die Schaltfläche "Bearbeiten" <span class="number">1</span>.
+    Um den geöffneten Datensatz zu bearbeiten, betätigen Sie in der Werkzeugleiste die Schaltfläche "Bearbeiten" <span class="number">1</span>.
 
-    Oder fahren Sie in der Infoliste mit der Maus über einen Eintrag und wählen die Direktaktion "Bearbeiten" <span class="number">2</span>.
+    ![Desktop Datensatz Bearbeiten aus Werkzeugleiste](desktop_datensatz_bearbeiten_aus_werkzeugleiste.png)
 
-    ...
+    Oder fahren Sie in der Liste mit der Maus über einen Eintrag und wählen die Direktaktion "Bearbeiten" <span class="number">2</span>.
 
-    ...
+    ![Desktop Datensatz Bearbeiten aus Liste](desktop_datensatz_bearbeiten_aus_liste.png#smartphone)
 
-    Die Seite zur Bearbeitung einer Info wird geöffnet und Sie können die gewünschten Änderungen vornehmen.
+    Im Datensatz-Bereich wird die Bearbeitungsmaske geöffnet.
+
+    ![Desktop Datensatz Bearbeiten Speichern oder Abbrechen](desktop_datensatz_bearbeiten_speichern_oder_abbrechen.png)
 
     Haben Sie alle Änderungen erledigt und möchten Sie diese speichern, dann betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>.
 
     Möchten Sie die getätigten Änderungen verwerfen, dann betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>.
 
-    ...
-
-    Sie gelangen zurück auf die Infoliste bzw. auf die Datensatzansicht der Info.
+    Sie gelangen in beiden Fällen zurück in den Ansichtsmodus.
 
 === "Smartphone"
 
@@ -199,17 +199,15 @@ Sie gelangen zur Datensatzansicht, die alle Details anzeigt.
 
 === "Desktop"
 
-    Um eine neue Info zu erstellen, betätigen Sie in der Infoliste die Schaltfläche "+" <span class="number">1</span>.
+    Um einen neuen Datensatz zu erstellen, betätigen Sie in der Liste die Schaltfläche "+" <span class="number">1</span> oder in der Datensatz-Ansicht die Schaltfläche "Erstellen: Ansprechpartner" <span class="number">2</span>.
 
-    ...
+    ![Desktop Datensatz Erstellen Möglichkeiten](desktop_datensatz_erstellen_moeglichkeiten.png)
 
-    Sie gelangen auf die Seite „Erstellen: Info“, auf der Sie in den zur Verfügung stehenden Feldern die gewünschten Eingaben erledigen können.
+    In der Datensatz-Ansicht öffnet sich die Eingabemaske, in der Sie in den zur Verfügung stehenden Feldern die gewünschten Eingaben erledigen können.
 
-    Nach Abschluss der Eingaben betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>, um die Info zu speichern. Betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>, um die erfassten Informationen nicht zu speichern.
+    ![Desktop Datensatz Erstellen Möglichkeiten](desktop_datensatz_erstellen_maske.png)
 
-    ...
-
-    Sie gelangen zurück in die Infoliste.
+    Nach Abschluss der Eingaben betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>, um den Datensatz zu speichern. Betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>, um die erfassten Informationen nicht zu speichern.
 
 === "Smartphone"
 
@@ -233,19 +231,21 @@ Sie gelangen zur Datensatzansicht, die alle Details anzeigt.
 
 === "Desktop"
 
-    Wenn Sie die geöffnete Info löschen möchten, öffnen Sie die Seitenleiste <span class="number">1</span> und klicken Sie auf "Löschen" <span class="number">2</span>.
+    Um den geöffneten Datensatz zu löschen, fahren Sie mit der Maus in der Seitenleiste über das Mülleimer-Symbol <span class="number">1</span>.
 
-    ...
+    ![Desktop Datensatz Löschen Schaltfläche](desktop_datensatz_loeschen_schaltflaeche.png#smartphone)
 
-    ...
+    Dieses erweitert sich und zeigt den Text "Löschen" an <span class="number">2</span>.
 
-    Oder fahren Sie in der Infoliste mit der Maus über einen Eintrag und wählen die Direktaktion "Löschen" <span class="number">3</span>.
+    ![Desktop Datensatz Löschen Schaltfläche Erweitert](desktop_datensatz_loeschen_schaltflaeche_erweitert.png#smartphone)
 
-    ...
+    Klicken Sie nun, um in die Löschen-Ansicht zu gelangen.
 
-    Sie gelangen auf die Datensatzansicht der Info, wo Sie im Abfragebereich "Löschen" <span class="number">1</span> wählen, um die Info endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>, um zurück auf die Infoliste bzw. auf die Datensatzansicht der Info zu gelangen.
+    !!! info "Manche Listen bieten auch eine Direktaktion zum Löschen, die beim Überfahren des Listeneintrags angezeigt wird."
 
-    ...
+    ![Desktop Datensatz Löschen Abfrage](desktop_datensatz_loeschen_abfrage.png)
+
+    Wählen Sie hier "Löschen" <span class="number">1</span>, um den Datensatz endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>.
 
 === "Smartphone"
 
