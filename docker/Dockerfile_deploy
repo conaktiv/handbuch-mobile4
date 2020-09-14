@@ -1,0 +1,21 @@
+# System: Ubuntu 20.04
+
+FROM ubuntu:20.04
+
+RUN sh -c '/bin/echo -e "Y\n" | apt-get update'
+RUN sh -c '/bin/echo -e "Y\n8\n7\n" | apt-get install mkdocs'
+RUN sh -c '/bin/echo -e "Y\n" | apt-get install python3-pip'
+RUN sh -c '/bin/echo -e "Y\n" | apt-get install libcairo2'
+RUN sh -c '/bin/echo -e "Y\n" | apt-get install gobject-2.0'
+RUN sh -c '/bin/echo -e "Y\n" | apt-get install pango-1.0'
+RUN sh -c '/bin/echo -e "Y\n" | apt-get install git'
+RUN sh -c '/bin/echo -e "Y\n" | apt-get install vim'
+RUN pip3 install mkdocs-material
+RUN pip3 install mkpdfs-mkdocs
+RUN sh -c '/bin/echo -e "w\n" | pip3 install -e git+https://github.com/comwes/mkpdfs-mkdocs-plugin#egg=mkpdfs-mkdocs-plugin'
+
+# https://github.com/comwes/mkpdfs-mkdocs-plugin/pull/25/commits/b0a7bd3e951d5cb2152cdda57dc621fe76365d4f
+COPY ./mkpdfs.py /src/mkpdfs-mkdocs-plugin/mkpdfs_mkdocs/mkpdfs.py
+COPY ./_mkdocs_deploy.sh /_mkdocs_deploy.sh
+
+ENTRYPOINT ["/_mkdocs_deploy.sh"]
