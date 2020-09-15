@@ -18,4 +18,6 @@ RUN sh -c '/bin/echo -e "w\n" | pip3 install -e git+https://github.com/comwes/mk
 COPY ./mkpdfs.py /src/mkpdfs-mkdocs-plugin/mkpdfs_mkdocs/mkpdfs.py
 COPY ./_mkdocs_build.sh /_mkdocs_build.sh
 
+RUN chmod a+x /_mkdocs_build.sh
+
 ENTRYPOINT ["/_mkdocs_build.sh"]

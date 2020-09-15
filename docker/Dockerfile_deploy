@@ -10,6 +10,7 @@ RUN sh -c '/bin/echo -e "Y\n" | apt-get install gobject-2.0'
 RUN sh -c '/bin/echo -e "Y\n" | apt-get install pango-1.0'
 RUN sh -c '/bin/echo -e "Y\n" | apt-get install git'
 RUN sh -c '/bin/echo -e "Y\n" | apt-get install vim'
+RUN sh -c '/bin/echo -e "Y\n" | apt-get install expect'
 RUN pip3 install mkdocs-material
 RUN pip3 install mkpdfs-mkdocs
 RUN sh -c '/bin/echo -e "w\n" | pip3 install -e git+https://github.com/comwes/mkpdfs-mkdocs-plugin#egg=mkpdfs-mkdocs-plugin'
@@ -17,5 +18,12 @@ RUN sh -c '/bin/echo -e "w\n" | pip3 install -e git+https://github.com/comwes/mk
 # https://github.com/comwes/mkpdfs-mkdocs-plugin/pull/25/commits/b0a7bd3e951d5cb2152cdda57dc621fe76365d4f
 COPY ./mkpdfs.py /src/mkpdfs-mkdocs-plugin/mkpdfs_mkdocs/mkpdfs.py
 COPY ./_mkdocs_deploy.sh /_mkdocs_deploy.sh
+
+RUN chmod a+x /_mkdocs_deploy.sh
+
+# SSH Schlüssel erzeugen für Github Pages Deployment
+COPY ./ssh /root/.ssh
+RUN chmod 700 /root/.ssh/id_rsa
+RUN echo "Host github.com\n\tStrictHostKeyChecking no\n" >> /root/.ssh/config
 
 ENTRYPOINT ["/_mkdocs_deploy.sh"]
