@@ -5,7 +5,6 @@ pids
 *.pid
 *.seed
 *.pid.lock
-report.css
 node_modules/
 jspm_packages/
 .npm
