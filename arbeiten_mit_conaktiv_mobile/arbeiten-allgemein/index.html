@@ -1,433 +1,751 @@
 
-<!DOCTYPE html>
 
-<html class="no-js" lang="de">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="../../assets/images/favicon.png" rel="shortcut icon"/>
-<meta content="mkdocs-1.1.2, mkdocs-material-5.5.12" name="generator"/>
-<title>Arbeiten mit einem Modul - ConAktiv® Mobile4 Handbuch</title>
-<link href="../../assets/stylesheets/main.4dd2dd8d.min.css" rel="stylesheet"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
-<style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
-<link href="../../stylesheets/conaktiv.css" rel="stylesheet"/>
-</head>
-<body dir="ltr">
-<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
-<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
-<label class="md-overlay" for="__drawer"></label>
-<div data-md-component="skip">
-<a class="md-skip" href="#arbeiten-mit-einem-modul">
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>Arbeiten mit einem Modul - ConAktiv® Mobile4 Handbuch</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/conaktiv.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#arbeiten-mit-einem-modul" class="md-skip">
           Zum Inhalt
         </a>
-</div>
-<div data-md-component="announce">
-</div>
-<header class="md-header" data-md-component="header">
-<nav aria-label="Header" class="md-header-nav md-grid">
-<a aria-label="ConAktiv® Mobile4 Handbuch" class="md-header-nav__button md-logo" href="../.." title="ConAktiv® Mobile4 Handbuch">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
-</a>
-<label class="md-header-nav__button md-icon" for="__drawer">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"></path></svg>
-</label>
-<div class="md-header-nav__title" data-md-component="header-title">
-<div class="md-header-nav__ellipsis">
-<span class="md-header-nav__topic md-ellipsis">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="ConAktiv® Mobile4 Handbuch" class="md-header-nav__button md-logo" aria-label="ConAktiv® Mobile4 Handbuch">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
             ConAktiv® Mobile4 Handbuch
           </span>
-<span class="md-header-nav__topic md-ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
             
               Arbeiten mit einem Modul
             
           </span>
-</div>
-</div>
-<label class="md-header-nav__button md-icon" for="__search">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
-</label>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
 <div class="md-search" data-md-component="search" role="dialog">
-<label class="md-search__overlay" for="__search"></label>
-<div class="md-search__inner" role="search">
-<form class="md-search__form" name="search">
-<input aria-label="Suche" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" data-md-state="active" name="query" placeholder="Suche" spellcheck="false" type="text"/>
-<label class="md-search__icon md-icon" for="__search">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"></path></svg>
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
-</label>
-<button aria-label="Clear" class="md-search__icon md-icon" data-md-component="search-reset" tabindex="-1" type="reset">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"></path></svg>
-</button>
-</form>
-<div class="md-search__output">
-<div class="md-search__scrollwrap" data-md-scrollfix="">
-<div class="md-search-result" data-md-component="search-result">
-<div class="md-search-result__meta">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
             Suche wird initialisiert
           </div>
-<ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-</nav>
+    
+    
+  </nav>
 </header>
-<div class="md-container" data-md-component="container">
-<nav aria-label="Tabs" class="md-tabs md-tabs--active" data-md-component="tabs">
-<div class="md-tabs__inner md-grid">
-<ul class="md-tabs__list">
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../..">
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../.." class="md-tabs__link">
         Einleitung
       </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../webserver_und_zugriff/webbrowser/">
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../voraussetzungen/webbrowser/" class="md-tabs__link">
           Voraussetzungen
         </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../einstellungen_des_conaktiv_webservers/">
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../einstellungen/einstellungen_des_conaktiv_webservers/" class="md-tabs__link">
           Einstellungen
         </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../anmeldung_an_conaktiv/">
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../anmeldung_an_conaktiv/" class="md-tabs__link md-tabs__link--active">
           Arbeiten mit ConAktiv® Mobile
         </a>
-</li>
-</ul>
-</div>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
 </nav>
-<main class="md-main" data-md-component="main">
-<div class="md-main__inner md-grid">
-<div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
-<div class="md-sidebar__scrollwrap">
-<div class="md-sidebar__inner">
-<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
-<label class="md-nav__title" for="__drawer">
-<a aria-label="ConAktiv® Mobile4 Handbuch" class="md-nav__button md-logo" href="../.." title="ConAktiv® Mobile4 Handbuch">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
-</a>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ConAktiv® Mobile4 Handbuch" class="md-nav__button md-logo" aria-label="ConAktiv® Mobile4 Handbuch">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
     ConAktiv® Mobile4 Handbuch
   </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../.." title="Einleitung">
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Einleitung" class="md-nav__link">
       Einleitung
     </a>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" id="nav-2" type="checkbox"/>
-<label class="md-nav__link" for="nav-2">
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
       Voraussetzungen
       <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-label="Voraussetzungen" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="nav-2">
-<span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Voraussetzungen" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
         Voraussetzungen
       </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../webserver_und_zugriff/webbrowser/" title="Web-Browser">
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../voraussetzungen/webbrowser/" title="Web-Browser" class="md-nav__link">
       Web-Browser
     </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../webserver_und_zugriff/lizenzen/" title="Lizenzen">
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../voraussetzungen/lizenzen/" title="Lizenzen" class="md-nav__link">
       Lizenzen
     </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" id="nav-3" type="checkbox"/>
-<label class="md-nav__link" for="nav-3">
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
       Einstellungen
       <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-label="Einstellungen" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="nav-3">
-<span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Einstellungen" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
         Einstellungen
       </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../einstellungen_des_conaktiv_webservers/" title="Einstellungen des ConAktiv® Web-Servers">
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../einstellungen/einstellungen_des_conaktiv_webservers/" title="Einstellungen des ConAktiv® Web-Servers" class="md-nav__link">
       Einstellungen des ConAktiv® Web-Servers
     </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../einstellungen_in_conaktiv/" title="Einstellungen in ConAktiv®">
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../einstellungen/einstellungen_in_conaktiv/" title="Einstellungen in ConAktiv®" class="md-nav__link">
       Einstellungen in ConAktiv®
     </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../webserver_und_zugriff/proxyserver/" title="Proxyserver">
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../einstellungen/proxyserver/" title="Proxyserver" class="md-nav__link">
       Proxyserver
     </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../webserver_und_zugriff/zugriff/" title="Zugriff und SSL-Zertifikate">
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../einstellungen/zugriff/" title="Zugriff und SSL-Zertifikate" class="md-nav__link">
       Zugriff und SSL-Zertifikate
     </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="nav-4" id="nav-4" type="checkbox"/>
-<label class="md-nav__link" for="nav-4">
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
       Arbeiten mit ConAktiv® Mobile
       <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-label="Arbeiten mit ConAktiv® Mobile" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="nav-4">
-<span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Arbeiten mit ConAktiv® Mobile" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
         Arbeiten mit ConAktiv® Mobile
       </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../anmeldung_an_conaktiv/" title="Anmeldung an ConAktiv">
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../anmeldung_an_conaktiv/" title="Anmeldung an ConAktiv" class="md-nav__link">
       Anmeldung an ConAktiv
     </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../navigation/" title="Navigation">
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../navigation/" title="Navigation" class="md-nav__link">
       Navigation
     </a>
-</li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
         Arbeiten mit einem Modul
         <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./" title="Arbeiten mit einem Modul">
+      </label>
+    
+    <a href="./" title="Arbeiten mit einem Modul" class="md-nav__link md-nav__link--active">
       Arbeiten mit einem Modul
     </a>
-<nav aria-label="Inhaltsverzeichnis" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
       Inhaltsverzeichnis
     </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#listenfunktionen">
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#listenfunktionen" class="md-nav__link">
     Listenfunktionen
   </a>
-<nav aria-label="Listenfunktionen" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#datensatze-anzeigen">
+  
+    <nav class="md-nav" aria-label="Listenfunktionen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datensatze-anzeigen" class="md-nav__link">
     Datensätze anzeigen
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#blattern">
+        
+          <li class="md-nav__item">
+  <a href="#blattern" class="md-nav__link">
     Blättern
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#freitextsuche">
+        
+          <li class="md-nav__item">
+  <a href="#freitextsuche" class="md-nav__link">
     Freitextsuche
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#filter-anwenden">
+        
+          <li class="md-nav__item">
+  <a href="#filter-anwenden" class="md-nav__link">
     Filter anwenden
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#sortierung-anzeigen">
+        
+          <li class="md-nav__item">
+  <a href="#sortierung-anzeigen" class="md-nav__link">
     Sortierung anzeigen
   </a>
+  
 </li>
-</ul>
-</nav>
+        
+      </ul>
+    </nav>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#datensatz">
+      
+        <li class="md-nav__item">
+  <a href="#datensatz" class="md-nav__link">
     Datensatz
   </a>
-<nav aria-label="Datensatz" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#anzeige">
+  
+    <nav class="md-nav" aria-label="Datensatz">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anzeige" class="md-nav__link">
     Anzeige
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#bearbeiten">
+        
+          <li class="md-nav__item">
+  <a href="#bearbeiten" class="md-nav__link">
     Bearbeiten
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#erstellen">
+        
+          <li class="md-nav__item">
+  <a href="#erstellen" class="md-nav__link">
     Erstellen
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#loschen">
+        
+          <li class="md-nav__item">
+  <a href="#loschen" class="md-nav__link">
     Löschen
   </a>
+  
 </li>
-</ul>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../kennwort-aendern/" title="Kennwort ändern">
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../druckcenter/" title="Vom Bildschirm aufs Papier - das Druckcenter" class="md-nav__link">
+      Vom Bildschirm aufs Papier - das Druckcenter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kennwort-aendern/" title="Kennwort ändern" class="md-nav__link">
       Kennwort ändern
     </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../abmelden/" title="Abmelden">
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../abmelden/" title="Abmelden" class="md-nav__link">
       Abmelden
     </a>
-</li>
-</ul>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
 </nav>
-</li>
-</ul>
-</nav>
-</div>
-</div>
-</div>
-<div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-<div class="md-sidebar__scrollwrap">
-<div class="md-sidebar__inner">
-<nav aria-label="Inhaltsverzeichnis" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
       Inhaltsverzeichnis
     </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#listenfunktionen">
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#listenfunktionen" class="md-nav__link">
     Listenfunktionen
   </a>
-<nav aria-label="Listenfunktionen" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#datensatze-anzeigen">
+  
+    <nav class="md-nav" aria-label="Listenfunktionen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#datensatze-anzeigen" class="md-nav__link">
     Datensätze anzeigen
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#blattern">
+        
+          <li class="md-nav__item">
+  <a href="#blattern" class="md-nav__link">
     Blättern
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#freitextsuche">
+        
+          <li class="md-nav__item">
+  <a href="#freitextsuche" class="md-nav__link">
     Freitextsuche
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#filter-anwenden">
+        
+          <li class="md-nav__item">
+  <a href="#filter-anwenden" class="md-nav__link">
     Filter anwenden
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#sortierung-anzeigen">
+        
+          <li class="md-nav__item">
+  <a href="#sortierung-anzeigen" class="md-nav__link">
     Sortierung anzeigen
   </a>
+  
 </li>
-</ul>
-</nav>
+        
+      </ul>
+    </nav>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#datensatz">
+      
+        <li class="md-nav__item">
+  <a href="#datensatz" class="md-nav__link">
     Datensatz
   </a>
-<nav aria-label="Datensatz" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#anzeige">
+  
+    <nav class="md-nav" aria-label="Datensatz">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anzeige" class="md-nav__link">
     Anzeige
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#bearbeiten">
+        
+          <li class="md-nav__item">
+  <a href="#bearbeiten" class="md-nav__link">
     Bearbeiten
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#erstellen">
+        
+          <li class="md-nav__item">
+  <a href="#erstellen" class="md-nav__link">
     Erstellen
   </a>
+  
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#loschen">
+        
+          <li class="md-nav__item">
+  <a href="#loschen" class="md-nav__link">
     Löschen
   </a>
+  
 </li>
-</ul>
-</nav>
+        
+      </ul>
+    </nav>
+  
 </li>
-</ul>
+      
+    </ul>
+  
 </nav>
-</div>
-</div>
-</div>
-<div class="md-content">
-<article class="md-content__inner md-typeset"><a class="md-content__icon pdf-download-btn" download href="../../pdf/handbuch_mobile4.pdf" title="Download"><i class="fa fas fa-download"></i><small> PDF</small></a>
-<h1 id="arbeiten-mit-einem-modul">Arbeiten mit einem Modul</h1>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="arbeiten-mit-einem-modul">Arbeiten mit einem Modul</h1>
 <p>Da die Konfiguration für viele Module das gleiche Schema verfolgt, wird hier am Beispiel der Ansprechpartner erklärt, wie mit einem Modul gearbeitet werden kann.</p>
 <h2 id="listenfunktionen">Listenfunktionen</h2>
 <h3 id="datensatze-anzeigen">Datensätze anzeigen</h3>
 <p>Nach der <a href="../navigation/">Navigation</a> zu der Seite für die Ansprechpartner werden diese als Liste angezeigt.</p>
-<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><label for="__tabbed_1_1">Desktop</label><div class="tabbed-content">
-<p><img alt="Desktop Liste" src="desktop_liste.png"/></p>
+<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Desktop</label><div class="tabbed-content">
+<p><img alt="Desktop Liste" src="desktop_liste.png" /></p>
 <p>In der Desktop Ansicht ist der Bildschirm aufgeteilt, mit der Liste der Ansprechpartner auf der linken Seite und rechts daneben die Datensatz Ansicht eines Eintrags.</p>
 <p>Die Liste ist so eingestellt, dass initial noch keine Datensätze angezeigt werden. Durch Klick auf den Button "Alle Datensätze anzeigen" werden diese geladen und angezeigt.</p>
-<p><img alt="Desktop Liste Datensaetze" src="desktop_liste_datensaetze.png"/></p>
+<p><img alt="Desktop Liste Datensaetze" src="desktop_liste_datensaetze.png" /></p>
 </div>
-<input id="__tabbed_1_2" name="__tabbed_1" type="radio"><label for="__tabbed_1_2">Smartphone</label><div class="tabbed-content">
-<p><img align="right" alt="Smartphone Liste" src="smartphone_liste.png#smartphone"/></p>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Smartphone</label><div class="tabbed-content">
+<p><img align="right" alt="Smartphone Liste" src="smartphone_liste.png#smartphone" /></p>
 <p>Diese Liste ist so eingestellt, dass initial noch keine Datensätze angezeigt werden. Durch Klick auf den Button "Alle Datensätze anzeigen" werden diese geladen und angezeigt.</p>
 <p><div class="clear"></div></p>
-<p><img align="right" alt="Smartphone Liste Datensaetze" src="smartphone_liste_datensaetze.png#smartphone"/></p>
+<p><img align="right" alt="Smartphone Liste Datensaetze" src="smartphone_liste_datensaetze.png#smartphone" /></p>
 <p>Die Liste der Ansprechpartner auf dem Smartphone.</p>
 <p><div class="clear"></div></p>
 </div>
-</input></input></div>
+</div>
 <h3 id="blattern">Blättern</h3>
-<p><img align="right" alt="Desktop Liste PagerButton" src="desktop_liste_pagerbutton.png#small"/></p>
+<p><img align="right" alt="Desktop Liste PagerButton" src="desktop_liste_pagerbutton.png#small" /></p>
 <p>Werden mehr Ergebnisse gefunden, als die Liste pro Seite anzeigen kann, wird ein Blättern-Element eingeblendet.</p>
 <p>Mit Klick auf <span class="number">2</span> wird eine Seite zurück, mit Klick auf <span class="number">3</span> eine Seite weitergeblättert.</p>
 <p>Durch Klick auf <span class="number">1</span> öffnet sich ein Popupfenster, in dem weitere Informationen angezeigt und in größeren Sprüngen zwischen den Seiten navigiert werden kann.</p>
 <div class="clear margin-bottom"></div>
-<p><img align="right" alt="Desktop Liste Pager" src="desktop_liste_pager.png#small"/></p>
+
+<p><img align="right" alt="Desktop Liste Pager" src="desktop_liste_pager.png#small" /></p>
 <p><span class="number">1</span> springt zur ersten Seite.</p>
 <p><span class="number">3</span> springt zur letzten Seite.</p>
 <p><span class="number">2</span> erlaubt den Sprung zu einer der benachbarten Seiten.</p>
 <div class="clear"></div>
+
 <h3 id="freitextsuche">Freitextsuche</h3>
-<p><img align="right" alt="Desktop Liste Freitextsuche" src="desktop_liste_freitextsuche.png#small"/></p>
+<p><img align="right" alt="Desktop Liste Freitextsuche" src="desktop_liste_freitextsuche.png#small" /></p>
 <p>Durch Klick auf das Eingabefeld "Stichwort suchen" können Sie eine Freitextsuche in der Liste starten.</p>
 <div class="clear margin-bottom"></div>
-<p><img align="right" alt="Desktop Liste Freitextsuche Popup" src="desktop_liste_freitextsuche_popup.png#small"/></p>
+
+<p><img align="right" alt="Desktop Liste Freitextsuche Popup" src="desktop_liste_freitextsuche_popup.png#small" /></p>
 <p>Ein kleines Popup zeigt, in welchen Datensatzfeldern die Suche stattfindet.</p>
 <p>Die Suche ist unscharf, d.h. für die Suche nach "Stefan Aller" können Sie stattdessen auch nur "Stefan" oder  "Ste" oder "Aller" eingeben.</p>
 <div class="clear margin-bottom"></div>
-<p><img align="right" alt="Desktop Suche Ergebnis" src="desktop_liste_freitextsuche_loeschen.png#small"/></p>
+
+<p><img align="right" alt="Desktop Suche Ergebnis" src="desktop_liste_freitextsuche_loeschen.png#small" /></p>
 <p>Nach Betätigen der Eingabe- oder Tabtaste erscheinen die Suchergebnisse. Mit Klick auf "X" <span class="number">1</span> wird die Freitextsuche zurückgesetzt.</p>
 <div class="clear"></div>
+
 <h3 id="filter-anwenden">Filter anwenden</h3>
-<p><img align="right" alt="Desktop Liste Filter Button" src="desktop_liste_suchfilterbutton.png#small"/></p>
+<p><img align="right" alt="Desktop Liste Filter Button" src="desktop_liste_suchfilterbutton.png#small" /></p>
 <p>Neben der Freitextsuche gibt es weitere Möglichkeiten, um die Ergebnisse einzuengen.</p>
 <p>Diese werden in der ConAktiv® Mobile4 "Filter" genannt und verbergen sich hinter dem Filter-Icon.</p>
 <div class="clear margin-bottom"></div>
-<p><img align="right" alt="Desktop Liste Filter" src="desktop_liste_suchfilter.png#small"/></p>
+
+<p><img align="right" alt="Desktop Liste Filter" src="desktop_liste_suchfilter.png#small" /></p>
 <p>Dieses öffnet nach einem Klick eine Seitenleiste mit den für diese Liste konfigurierten Filtern.</p>
 <p>In diesem Beispiel stehen drei Filter zur Verfügung:</p>
 <ol>
@@ -436,48 +754,51 @@
 <li>Suchfilter</li>
 </ol>
 <div class="clear"></div>
+
 <h3 id="sortierung-anzeigen">Sortierung anzeigen</h3>
-<p><img align="right" alt="Desktop Liste Sortierungbutton" src="desktop_liste_sortierbutton.png#small"/></p>
+<p><img align="right" alt="Desktop Liste Sortierungbutton" src="desktop_liste_sortierbutton.png#small" /></p>
 <p>Die Sortierung einer Liste lässt sich durch einen Klick auf den "Sortierung"-Button anzeigen.</p>
 <div class="clear margin-bottom"></div>
-<p><img align="right" alt="Desktop Liste Sortierung" src="desktop_liste_sortierung.png#small"/></p>
+
+<p><img align="right" alt="Desktop Liste Sortierung" src="desktop_liste_sortierung.png#small" /></p>
 <p>Es erscheint ein Popup, in dem alle Felder aufgeführt sind, nach denen die Liste sortiert ist.</p>
 <p><strong>"Feld"</strong> zeigt den Feldnamen an, wie er in der Struktur vom Anwender hinterlegt wurde.</p>
 <p><strong>"Richtung"</strong> zeigt an, ob auf- oder absteigend sortiert wird.</p>
 <p>Wird nach dem Feld gruppiert, zeigt die Spalte <strong>"Gruppiert"</strong> einen Haken an.</p>
 <div class="clear"></div>
+
 <h2 id="datensatz">Datensatz</h2>
 <h3 id="anzeige">Anzeige</h3>
-<div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"><label for="__tabbed_2_1">Desktop</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Desktop</label><div class="tabbed-content">
 <p>Um einen Datensatz anzuzeigen, wählen Sie den gewünschten Eintrag in der Liste an.</p>
-<p><img alt="Desktop Datensatz auswählen" src="desktop_datensatz_auswaehlen.png"/></p>
+<p><img alt="Desktop Datensatz auswählen" src="desktop_datensatz_auswaehlen.png" /></p>
 <p>Dadurch erscheint auf der rechten Seite die Datensatzansicht mit allen Details.</p>
 <p>Diese gliedert sich in verschiedene Bereiche:</p>
-<p><img alt="Desktop Datensatz Ansicht" src="desktop_datensatz_ansicht.png"/></p>
+<p><img alt="Desktop Datensatz Ansicht" src="desktop_datensatz_ansicht.png" /></p>
 <p><strong><span class="number">1</span> Titel</strong></p>
 <p>Zeigt die wichtigsten Informationen zum geladenen Datensatz an.</p>
 <p><strong><span class="number">2</span> Verknüpfte Daten</strong></p>
 <p>Ganz links befindet sich in dieser Tableiste immer der Hauptdatensatz (in diesem Beispiel "Ansprechpartner"). Daneben befinden sich Reiter, die auf mit diesem Hauptdatensatz verknüpfte Daten Zugriff gewähren.</p>
-<p><img align="right" alt="Desktop Datensatz Tableiste Mehr Schaltfläche" src="desktop_datensatz_tableiste_mehr_button.png#small"/></p>
-<p><img align="right" alt="Desktop Datensatz Tableiste Mehr Popup" src="desktop_datensatz_tableiste_mehr_popup.png#small"/></p>
+<p><img align="right" alt="Desktop Datensatz Tableiste Mehr Schaltfläche" src="desktop_datensatz_tableiste_mehr_button.png#small" /></p>
+<p><img align="right" alt="Desktop Datensatz Tableiste Mehr Popup" src="desktop_datensatz_tableiste_mehr_popup.png#small" /></p>
 <p>Sollte der Platz für die verknüpften Daten nicht ausreichen, wird eine Schaltfläche mit drei Punkten angezeigt. Ein Klick auf diese öffnet ein Popup, in dem alle Verknüpfungen als Liste angezeigt werden.</p>
 <p><div class="clear"></div></p>
 <p><strong><span class="number">3</span> Werkzeugleiste</strong></p>
 <p>In dieser Leiste finden sich Knöpfe zum Bearbeiten des Datensatzes oder (im Bearbeitungsmodus) auch zum Speichern. Je nach Modul können hier auch weitere Funktionen angezeigt werden.</p>
 <p><strong><span class="number">4</span> Seitenleiste</strong></p>
-<p><img align="right" alt="Desktop Datensatz Seitenleiste Schaltfläche" src="desktop_datensatz_seitenleiste_button.png#small"/></p>
-<p><img align="right" alt="Desktop Datensatz Seitenleiste" src="desktop_datensatz_seitenleiste.png#small"/></p>
+<p><img align="right" alt="Desktop Datensatz Seitenleiste Schaltfläche" src="desktop_datensatz_seitenleiste_button.png#small" /></p>
+<p><img align="right" alt="Desktop Datensatz Seitenleiste" src="desktop_datensatz_seitenleiste.png#small" /></p>
 <p>Weitere Funktionen finden sich in der Seitenleiste. Diese wird mit Klick auf die Seitenleisten-Schaltfläche in der Werkzeugleiste geöffnet:</p>
 <p><div class="clear"></div></p>
 <p><strong><span class="number">5</span> Datensatz</strong></p>
 <p>Im Datensatz-Bereich wird die Anzeige- und Eingabemaske angezeigt.</p>
 </div>
-<input id="__tabbed_2_2" name="__tabbed_2" type="radio"><label for="__tabbed_2_2">Smartphone</label><div class="tabbed-content">
-<p><img align="right" alt="Smartphone Datensatz auswählen" src="smartphone_datensatz_auswaehlen.png#smartphone"/></p>
+<input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Smartphone</label><div class="tabbed-content">
+<p><img align="right" alt="Smartphone Datensatz auswählen" src="smartphone_datensatz_auswaehlen.png#smartphone" /></p>
 <p>Um einen Datensatz anzuzeigen, tippen Sie den gewünschten Eintrag in der Liste an.</p>
 <p><div class="clear margin-bottom"></div></p>
 <p>Sie gelangen zur Seite für die Datensatzansicht, die alle Details anzeigt. Diese gliedert sich in verschiedene Bereiche:</p>
-<p><img align="right" alt="Smartphone Datensatz" src="smartphone_datensatz.png#smartphone"/></p>
+<p><img align="right" alt="Smartphone Datensatz" src="smartphone_datensatz.png#smartphone" /></p>
 <p><strong><span class="number">1</span> Navigationsleiste</strong></p>
 <p>Die Navigationsleiste zeigt an, von welchen Seiten man auf die aktuelle Seite gekommen ist. Durch Klick auf einen Eintrag oder den Pfeil ganz links gelangt man eine Seite zurück.</p>
 <p><strong><span class="number">2</span> Titel</strong></p>
@@ -488,137 +809,156 @@
 <p>Im Datensatz-Bereich wird die Anzeige- und Eingabemaske angezeigt.</p>
 <p><div class="clear"></div></p>
 </div>
-</input></input></div>
+</div>
 <h3 id="bearbeiten">Bearbeiten</h3>
-<div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio"><label for="__tabbed_3_1">Desktop</label><div class="tabbed-content">
-<p><img align="right" alt="Desktop Datensatz Bearbeiten aus Werkzeugleiste" src="desktop_datensatz_bearbeiten_aus_werkzeugleiste.png#small"/></p>
+<div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Desktop</label><div class="tabbed-content">
+<p><img align="right" alt="Desktop Datensatz Bearbeiten aus Werkzeugleiste" src="desktop_datensatz_bearbeiten_aus_werkzeugleiste.png#small" /></p>
 <p>Um den geöffneten Datensatz zu bearbeiten, betätigen Sie in der Werkzeugleiste die Schaltfläche "Bearbeiten" <span class="number">1</span>.</p>
 <p><div class="clear"></div></p>
-<p><img align="right" alt="Desktop Datensatz Bearbeiten aus Liste" src="desktop_datensatz_bearbeiten_aus_liste.png#small"/></p>
+<p><img align="right" alt="Desktop Datensatz Bearbeiten aus Liste" src="desktop_datensatz_bearbeiten_aus_liste.png#small" /></p>
 <p>Oder fahren Sie in der Liste mit der Maus über einen Eintrag und wählen die Direktaktion "Bearbeiten" <span class="number">2</span>.</p>
 <p><div class="clear"></div></p>
 <p>Im Datensatz-Bereich wird die Bearbeitungsmaske geöffnet.</p>
-<p><img alt="Desktop Datensatz Bearbeiten Speichern oder Abbrechen" src="desktop_datensatz_bearbeiten_speichern_oder_abbrechen.png"/></p>
+<p><img alt="Desktop Datensatz Bearbeiten Speichern oder Abbrechen" src="desktop_datensatz_bearbeiten_speichern_oder_abbrechen.png" /></p>
 <p>Haben Sie alle Änderungen erledigt und möchten diese speichern, dann betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>.</p>
 <p>Um die getätigten Änderungen zu verwerfen, betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>.</p>
 <p>Sie gelangen in beiden Fällen zurück in den Ansichtsmodus.</p>
 </div>
-<input id="__tabbed_3_2" name="__tabbed_3" type="radio"><label for="__tabbed_3_2">Smartphone</label><div class="tabbed-content">
-<p><img align="right" alt="Smartphone Datensatz Bearbeiten aus Werkzeugleiste" src="smartphone_datensatz_bearbeiten_aus_werkzeugleiste.png#smartphone"/></p>
+<input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><label for="__tabbed_3_2">Smartphone</label><div class="tabbed-content">
+<p><img align="right" alt="Smartphone Datensatz Bearbeiten aus Werkzeugleiste" src="smartphone_datensatz_bearbeiten_aus_werkzeugleiste.png#smartphone" /></p>
 <p>Um den geöffneten Datensatz zu bearbeiten, betätigen Sie in der Werkzeugleiste die Schaltfläche "Bearbeiten" <span class="number">1</span>.</p>
 <p><div class="clear"></div></p>
-<p><img align="right" alt="Smartphone Datensatz Bearbeiten aus Liste" src="smartphone_datensatz_bearbeiten_aus_liste.png#smartphone"/></p>
+<p><img align="right" alt="Smartphone Datensatz Bearbeiten aus Liste" src="smartphone_datensatz_bearbeiten_aus_liste.png#smartphone" /></p>
 <p>Oder ziehen Sie in der Liste mit dem Finger nach links und tippen Sie auf die Direktaktion "Bearbeiten" <span class="number">2</span>.</p>
 <p><div class="clear margin-bottom"></div></p>
 <p>Im Datensatz-Bereich wird die Bearbeitungsmaske geöffnet.</p>
-<p><img align="right" alt="Smartphone Datensatz Bearbeiten Speichern oder Abbrechen" src="smartphone_datensatz_bearbeiten_speichern_oder_abbrechen.png#smartphone"/></p>
+<p><img align="right" alt="Smartphone Datensatz Bearbeiten Speichern oder Abbrechen" src="smartphone_datensatz_bearbeiten_speichern_oder_abbrechen.png#smartphone" /></p>
 <p>Haben Sie alle Änderungen erledigt und möchten Sie diese speichern, dann betätigen Sie die Schaltfläche "Speichern und Schließen" <span class="number">1</span>.</p>
 <p>Möchten Sie die getätigten Änderungen verwerfen, dann betätigen Sie die Schaltfläche "X" <span class="number">2</span>.</p>
 <p>Sind Sie über die Liste gekommen, gelangen Sie nun dorthin zurück, andernfalls in die Datensatzansicht.</p>
 <p><div class="clear"></div></p>
 </div>
-</input></input></div>
+</div>
 <h3 id="erstellen">Erstellen</h3>
-<div class="tabbed-set" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio"><label for="__tabbed_4_1">Desktop</label><div class="tabbed-content">
+<div class="tabbed-set" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">Desktop</label><div class="tabbed-content">
 <p>Um einen neuen Datensatz zu erstellen, betätigen Sie in der Liste die Schaltfläche "+" <span class="number">1</span> oder in der Datensatz-Ansicht die Schaltfläche "Erstellen: Ansprechpartner" <span class="number">2</span>.</p>
-<p><img alt="Desktop Datensatz Erstellen Möglichkeiten" src="desktop_datensatz_erstellen_moeglichkeiten.png"/></p>
+<p><img alt="Desktop Datensatz Erstellen Möglichkeiten" src="desktop_datensatz_erstellen_moeglichkeiten.png" /></p>
 <p>In der Datensatz-Ansicht öffnet sich die Eingabemaske, in der Sie in den zur Verfügung stehenden Feldern die gewünschten Eingaben erledigen können.</p>
-<p><img alt="Desktop Datensatz Erstellen Maske" src="desktop_datensatz_erstellen_maske.png"/></p>
+<p><img alt="Desktop Datensatz Erstellen Maske" src="desktop_datensatz_erstellen_maske.png" /></p>
 <p>Nach Abschluss der Eingaben betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>, um den Datensatz zu speichern. Betätigen Sie die Schaltfläche "Abbrechen" <span class="number">2</span>, um die erfassten Informationen nicht zu speichern.</p>
 </div>
-<input id="__tabbed_4_2" name="__tabbed_4" type="radio"/><label for="__tabbed_4_2">Smartphone</label><div class="tabbed-content">
-<p><img align="right" alt="Smartphone Datensatz Erstellen" src="smartphone_datensatz_erstellen.png#smartphone"/></p>
+<input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><label for="__tabbed_4_2">Smartphone</label><div class="tabbed-content">
+<p><img align="right" alt="Smartphone Datensatz Erstellen" src="smartphone_datensatz_erstellen.png#smartphone" /></p>
 <p>Um eine neue Info zu erstellen, betätigen Sie in der Liste die Schaltfläche "+".</p>
 <p><div class="clear"></div></p>
-<p><img align="right" alt="Smartphone Datensatz Erstellen Maske" src="smartphone_datensatz_erstellen_maske.png#smartphone"/></p>
+<p><img align="right" alt="Smartphone Datensatz Erstellen Maske" src="smartphone_datensatz_erstellen_maske.png#smartphone" /></p>
 <p>Sie gelangen auf die Seite "Erstellen: Ansprechpartner", auf der Sie in den zur Verfügung stehenden Feldern die gewünschten Eingaben erledigen können.</p>
 <p>Nach Abschluss der Eingaben betätigen Sie die Schaltfläche "Speichern" <span class="number">1</span>, um den Datensatz zu speichern.</p>
 <p>Klicken Sie in der Navigationsleiste auf den Pfeil nach links <span class="number">2</span>, um die erfassten Informationen nicht zu speichern.</p>
 <p><div class="clear margin-bottom"></div></p>
 <p>Sie gelangen zurück in die Liste.</p>
 </div>
-</input></div>
+</div>
 <h3 id="loschen">Löschen</h3>
-<div class="tabbed-set" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio"/><label for="__tabbed_5_1">Desktop</label><div class="tabbed-content">
-<p><img align="right" alt="Desktop Datensatz Löschen Schaltfläche" src="desktop_datensatz_loeschen_schaltflaeche.png#small"/></p>
+<div class="tabbed-set" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">Desktop</label><div class="tabbed-content">
+<p><img align="right" alt="Desktop Datensatz Löschen Schaltfläche" src="desktop_datensatz_loeschen_schaltflaeche.png#small" /></p>
 <p>Um den geöffneten Datensatz zu löschen, fahren Sie mit der Maus in der Seitenleiste über das Mülleimer-Symbol <span class="number">1</span>.</p>
 <p><div class="clear"></div></p>
-<p><img align="right" alt="Desktop Datensatz Löschen Schaltfläche Erweitert" src="desktop_datensatz_loeschen_schaltflaeche_erweitert.png#small"/></p>
+<p><img align="right" alt="Desktop Datensatz Löschen Schaltfläche Erweitert" src="desktop_datensatz_loeschen_schaltflaeche_erweitert.png#small" /></p>
 <p>Dieses erweitert sich und zeigt den Text "Löschen" an <span class="number">2</span>.</p>
 <p>Klicken Sie nun, um in die Löschen-Ansicht zu gelangen.</p>
 <p><div class="clear"></div></p>
 <div class="admonition info">
 <p class="admonition-title">Manche Listen bieten auch eine Direktaktion zum Löschen, die beim Überfahren des Listeneintrags angezeigt wird.</p>
 </div>
-<p><img alt="Desktop Datensatz Löschen Abfrage" src="desktop_datensatz_loeschen_abfrage.png"/></p>
+<p><img alt="Desktop Datensatz Löschen Abfrage" src="desktop_datensatz_loeschen_abfrage.png" /></p>
 <p>Wählen Sie hier "Löschen" <span class="number">1</span>, um den Datensatz endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>.</p>
 </div>
-<input id="__tabbed_5_2" name="__tabbed_5" type="radio"/><label for="__tabbed_5_2">Smartphone</label><div class="tabbed-content">
-<p><img align="right" alt="Smartphone Datensatz Löschen Seitenleiste" src="smartphone_datensatz_loeschen_seitenleiste.png#smartphone"/></p>
+<input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><label for="__tabbed_5_2">Smartphone</label><div class="tabbed-content">
+<p><img align="right" alt="Smartphone Datensatz Löschen Seitenleiste" src="smartphone_datensatz_loeschen_seitenleiste.png#smartphone" /></p>
 <p>Um den geöffneten Datensatz zu löschen, öffnen Sie zunächst die Seitenleiste über das Hamburger-Symbol.</p>
 <p><div class="clear"></div></p>
-<p><img align="right" alt="Smartphone Datensatz Löschen Schaltfläche" src="smartphone_datensatz_loeschen_schaltflaeche.png#smartphone"/></p>
+<p><img align="right" alt="Smartphone Datensatz Löschen Schaltfläche" src="smartphone_datensatz_loeschen_schaltflaeche.png#smartphone" /></p>
 <p>In der geöffneten Seitenleiste tippen Sie die Schaltfläche "Löschen" an.</p>
 <p><div class="clear"></div></p>
 <div class="admonition info">
 <p class="admonition-title">Manche Listen bieten auch eine Direktaktion zum Löschen, die durch Ziehen nach links über dem Listeneintrag angezeigt wird.</p>
 </div>
-<p><img align="right" alt="Smartphone Datensatz Löschen Abfrage" src="smartphone_datensatz_loeschen_abfrage.png#smartphone"/></p>
+<p><img align="right" alt="Smartphone Datensatz Löschen Abfrage" src="smartphone_datensatz_loeschen_abfrage.png#smartphone" /></p>
 <p>Wählen Sie hier "Löschen" <span class="number">1</span>, um den Datensatz endgültig zu löschen, oder "Abbrechen" <span class="number">2</span>.</p>
 <p><div class="clear"></div></p>
 </div>
 </div>
-</article>
-</div>
-</div>
-</main>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
 <footer class="md-footer">
-<div class="md-footer-nav">
-<nav aria-label="Footer" class="md-footer-nav__inner md-grid">
-<a class="md-footer-nav__link md-footer-nav__link--prev" href="../navigation/" rel="prev" title="Navigation">
-<div class="md-footer-nav__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
-</div>
-<div class="md-footer-nav__title">
-<div class="md-ellipsis">
-<span class="md-footer-nav__direction">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../navigation/" title="Navigation" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
                   Zurück
                 </span>
                 Navigation
               </div>
-</div>
-</a>
-<a class="md-footer-nav__link md-footer-nav__link--next" href="../kennwort-aendern/" rel="next" title="Kennwort ändern">
-<div class="md-footer-nav__title">
-<div class="md-ellipsis">
-<span class="md-footer-nav__direction">
+            </div>
+          </a>
+        
+        
+          <a href="../druckcenter/" title="Vom Bildschirm aufs Papier - das Druckcenter" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
                   Weiter
                 </span>
-                Kennwort ändern
+                Vom Bildschirm aufs Papier - das Druckcenter
               </div>
-</div>
-<div class="md-footer-nav__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
-</div>
-</a>
-</nav>
-</div>
-<div class="md-footer-meta md-typeset">
-<div class="md-footer-meta__inner md-grid">
-<div class="md-footer-copyright">
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
         
         Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs
         </a>
-</div>
-</div>
-</div>
+      </div>
+      
+    </div>
+  </div>
 </footer>
-</div>
-<script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
-<script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse"}</script>
-<script>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse"}</script>
+      
+      <script>
         app = initialize({
           base: "../..",
           features: ["instant", "tabs"],
@@ -627,5 +967,7 @@
           }, typeof search !== "undefined" && search)
         })
       </script>
-</body>
+      
+    
+  </body>
 </html>
