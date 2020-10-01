@@ -79,6 +79,96 @@ Der Stundennachweis wird für den angemeldeten Mitarbeiter für einen Monat zusa
 
 ## Monatszettel
 
+Der Monatszettel wird für den angemeldeten Mitarbeiter in einer Monatsübersicht dargestellt.
+
+=== "Desktop"
+
+    Über die Schaltflächen "Jahr" <span class="number">1</span> und "Monat" <span class="number">2</span> lässt sich der gewünschte Monat auswählen, für den Sie den Monatszettel drucken möchten.
+
+    ![Druckcenter Monatszettel Desktop](./druckcenter_monatszettel_dialog_desktop.png)
+
+    Über die Schaltfläche "Drucken" <span class="number">3</span> wird das Dokument vom Server angefordert.
+
+    Nach einer kurzen Wartezeit erscheint eine weitere Schaltfäche "Dokument anzeigen".
+
+    ![Druckcenter Monatszettel PDF bereit Desktop](./druckcenter_monatszettel_dialog_desktop_dokument_zeigen.png)
+
+    Mittels Klick auf die Schaltfläche "Dokument anzeigen" <span class="number">1</span> wird das Dokument aufgerufen.
+
+    Abhängig von Ihrem Endgerät kann dies im Browser oder in einer passenden Anzeige-App erfolgen.
+
+    ![Druckcenter Monatszettel PDF Desktop](./druckcenter_monatszettel_pdf.png)
+
+=== "Smartphone"
+
+    ![Druckcenter Monatszettel Smartphone](./druckcenter_monatszettel_smartphone.png#smartphone){ align=right }
+
+    Über die Schaltflächen "Jahr" <span class="number">1</span> und "Monat" <span class="number">2</span> lässt sich der gewünschte Monat auswählen, für den Sie den Monatszettel drucken möchten.
+
+    Über die Schaltfläche "Drucken" <span class="number">3</span> wird das Dokument vom Server angefordert.
+
+    <div class="clear"></div>
+
+    ![Druckcenter Stundennachweis PDF bereit Smartphone](./druckcenter_monatszettel_pdf_bereit_smartphone.png#smartphone){ align=right }
+
+    Nach einer kurzen Wartezeit erscheint eine weitere Schaltfäche "Dokument anzeigen".
+
+    Mittels Klick auf die Schaltfläche "Dokument anzeigen" <span class="number">1</span> wird das PDF-Dokument aufgerufen.
+
+    <div class="clear"></div>
+
+    Abhängig von Ihrem Endgerät kann dies im Browser oder in einer passenden Anzeige-App erfolgen.
+
+    ![Druckcenter Monatszettel PDF Smartphone](./druckcenter_monatszettel_pdf.png)
+
+
 ## Leistungsnachweis
 
+=== "Desktop"
+
+    Über die Schaltflächen "Jahr" <span class="number">1</span> und "Monat" <span class="number">2</span> lässt sich der gewünschte Monat auswählen, für den Sie den Leistungsnachweis drucken möchten.
+    
+    Das Projekt zu dem Sie den Leistungsnachweis drucken möchten, wählen Sie mithilfe der Schaltfläche "Projekt" <span class="number">3</span> aus.
+
+    ![Druckcenter Leistungsnachweis Desktop](./druckcenter_leistungsnachweis_dialog_desktop_neu.png)
+
+    Für die Leistungsnachweise können Sie verschiedene Formulare bereitstellen und im Druckcenter über die Schaltfläche "Formular" <span class="number">4</span> auswählen.
+
+    Über die Schaltfläche "Drucken" <span class="number">5</span> wird das Dokument vom Server angefordert.
+
+    Nach einer kurzen Wartezeit erscheint eine weitere Schaltfäche "Dokument anzeigen".
+
+    ![Druckcenter Monatszettel PDF bereit Desktop](./druckcenter_leistungsnachweis_dialog_desktop_dokument_zeigen.png)
+
+    Mittels Klick auf die Schaltfläche "Dokument anzeigen" <span class="number">1</span> wird das Dokument aufgerufen.
+
+    Abhängig von Ihrem Endgerät kann dies im Browser oder in einer passenden Anzeige-App erfolgen.
+
+    ![Druckcenter Monatszettel PDF Desktop](./druckcenter_leistungsnachweis_pdf.png)
+
+=== "Smartphone"
+
+
+    Über die Schaltflächen "Jahr" <span class="number">1</span> und "Monat" <span class="number">2</span> lässt sich der gewünschte Monat auswählen, für den Sie den Leistungsnachweis drucken möchten.
+    
+    Das Projekt zu dem Sie den Leistungsnachweis drucken möchten, wählen Sie mithilfe der Schaltfläche "Projekt" <span class="number">3</span> aus.
+
+    ![Druckcenter Leistungsnachweis Desktop](./druckcenter_leistungsnachweis_dialog_smartphone.png)
+
+    Für die Leistungsnachweise können Sie verschiedene Formulare bereitstellen und im Druckcenter über die Schaltfläche "Formular" <span class="number">4</span> auswählen.
+
+    Über die Schaltfläche "Drucken" <span class="number">5</span> wird das Dokument vom Server angefordert.
+
+    Nach einer kurzen Wartezeit erscheint eine weitere Schaltfäche "Dokument anzeigen".
+
+    ![Druckcenter Monatszettel PDF bereit Desktop](./druckcenter_leistungsnachweis_pdf_bereit_smartphone.png)
+
+    Mittels Klick auf die Schaltfläche "Dokument anzeigen" <span class="number">1</span> wird das Dokument aufgerufen.
+
+    Abhängig von Ihrem Endgerät kann dies im Browser oder in einer passenden Anzeige-App erfolgen.
+
+    ![Druckcenter Monatszettel PDF Desktop](./druckcenter_leistungsnachweis_pdf.png)
+
+
+    
 ## Reisekosten
