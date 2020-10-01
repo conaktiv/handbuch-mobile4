@@ -1,6 +1,8 @@
 # Der ConAktiv® Mobile4 Listen-Editor
 
-Die ConAktiv® Mobile4 bietet mehrere Arten von Listen, die sich über den Listen-Editor anpassen lassen.
+## Listen und Gestaltungsmöglichkeiten
+
+In der ConAktiv® Mobile4 gibt es mehrere Arten von Listen, die sich über den Listen-Editor anpassen lassen.
 
 |                        |                                                     |
 | ---------------------- | --------------------------------------------------- |
@@ -12,7 +14,7 @@ Es können beliebige Datenbankfelder, Formeln und Diagramme in Listen eingebaut 
 
 Werte lassen sich (optional auch abhängig von Parametern) mit Farben und Icons versehen, Schriftgrößen können angepasst, Zahlenformate definiert werden.
 
-Darüber hinaus lässt sich die Sortierung einstellen.
+Darüber hinaus lassen sich die Sortierung/Gruppierung, die Darstellung von Gesamtsummen sowie Direktaktionen einstellen.
 
 ## Aufruf des Editors
 
@@ -24,7 +26,8 @@ Darüber hinaus lässt sich die Sortierung einstellen.
 
 ![Startseite Listen-Editor](./listen-editor-start.png)
 
-Die ConAktiv® Mobile4 wird mit einer Vielzahl an Listen ausgeliefert. Diese sind allerdings nicht in der Datenbank hinterlegt, sondern kommen aus dem Dateisystem. Damit sind diese Listen nicht unter "Vorhandene Liste bearbeiten" sichtbar.
+!!! info "Hinweis"
+    Die ConAktiv® Mobile4 wird mit einer Vielzahl an Listen ausgeliefert. Diese sind allerdings nicht in der Datenbank hinterlegt, sondern kommen aus dem Dateisystem. Damit sind diese Listen nicht unter "Vorhandene Liste bearbeiten" sichtbar.
 
 Unter "Vorhandene Liste bearbeiten" tauchen nur solche Listen auf, die Sie selbst angelegt haben.
 
