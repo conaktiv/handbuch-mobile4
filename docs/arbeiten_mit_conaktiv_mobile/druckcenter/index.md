@@ -172,3 +172,44 @@ Der Monatszettel wird für den angemeldeten Mitarbeiter in einer Monatsübersich
 
     
 ## Reisekosten
+
+=== "Desktop"
+
+    Über die Schaltflächen "Jahr" <span class="number">1</span> und "Monat" <span class="number">2</span> lässt sich der gewünschte Monat auswählen, für den Sie die Reisekostenabrechnung drucken möchten.
+    
+    Die Reise, zur der Sie die Reisekostenabrechnung drucken möchten, wählen Sie mithilfe der Schaltfläche "Reise" <span class="number">3</span> aus.
+
+    ![Druckcenter Leistungsnachweis Desktop](./druckcenter_reisekosten_dialog_desktop.png)
+
+    Über die Schaltfläche "Drucken" <span class="number">4</span> wird das Dokument vom Server angefordert.
+
+    Nach einer kurzen Wartezeit erscheint eine weitere Schaltfäche "Dokument anzeigen".
+
+    ![Druckcenter Monatszettel PDF bereit Desktop](./druckcenter_reisekosten_dialog_desktop_dokument_zeigen.png)
+
+    Mittels Klick auf die Schaltfläche "Dokument anzeigen" <span class="number">1</span> wird das Dokument aufgerufen.
+
+    Abhängig von Ihrem Endgerät kann dies im Browser oder in einer passenden Anzeige-App erfolgen.
+
+    ![Druckcenter Monatszettel PDF Desktop](./druckcenter_reisekosten_pdf.png)
+
+=== "Smartphone"
+
+
+    Über die Schaltflächen "Jahr" <span class="number">1</span> und "Monat" <span class="number">2</span> lässt sich der gewünschte Monat auswählen, für den Sie die Reisekostenabrechnung drucken möchten.
+    
+    Die Reise, zur der Sie die Reisekostenabrechnung drucken möchten, wählen Sie mithilfe der Schaltfläche "Reise" <span class="number">3</span> aus.
+
+    ![Druckcenter Leistungsnachweis Desktop](./druckcenter_reisekosten_dialog_smartphone.png)
+
+    Über die Schaltfläche "Drucken" <span class="number">4</span> wird das Dokument vom Server angefordert.
+
+    Nach einer kurzen Wartezeit erscheint eine weitere Schaltfäche "Dokument anzeigen".
+
+    ![Druckcenter Monatszettel PDF bereit Desktop](./druckcenter_reisekosten_dialog_smartphone_dokument_zeigen.png)
+
+    Mittels Klick auf die Schaltfläche "Dokument anzeigen" <span class="number">1</span> wird das Dokument aufgerufen.
+
+    Abhängig von Ihrem Endgerät kann dies im Browser oder in einer passenden Anzeige-App erfolgen.
+
+    ![Druckcenter Monatszettel PDF Desktop](./druckcenter_reisekosten_pdf.png)
