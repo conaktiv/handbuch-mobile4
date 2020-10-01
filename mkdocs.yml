@@ -2,13 +2,13 @@ site_name: ConAktiv® Mobile4 Handbuch
 nav:
   - Einleitung: index.md
   - Voraussetzungen:
-    - Web-Browser: webserver_und_zugriff/webbrowser.md
-    - Lizenzen: webserver_und_zugriff/lizenzen.md
+    - Web-Browser: voraussetzungen/webbrowser.md
+    - Lizenzen: voraussetzungen/lizenzen.md
   - Einstellungen:
-    - Einstellungen des ConAktiv® Web-Servers: einstellungen_des_conaktiv_webservers/index.md
-    - Einstellungen in ConAktiv®: einstellungen_in_conaktiv/index.md
-    - Proxyserver: webserver_und_zugriff/proxyserver.md
-    - Zugriff und SSL-Zertifikate: webserver_und_zugriff/zugriff.md
+    - Einstellungen des ConAktiv® Web-Servers: einstellungen/einstellungen_des_conaktiv_webservers/index.md
+    - Einstellungen in ConAktiv®: einstellungen/einstellungen_in_conaktiv/index.md
+    - Proxyserver: einstellungen/proxyserver.md
+    - Zugriff und SSL-Zertifikate: einstellungen/zugriff.md
   - Arbeiten mit ConAktiv® Mobile:
     - Anmeldung an ConAktiv: arbeiten_mit_conaktiv_mobile/anmeldung_an_conaktiv/index.md
     - Navigation: arbeiten_mit_conaktiv_mobile/navigation/index.md
@@ -16,6 +16,14 @@ nav:
     - Vom Bildschirm aufs Papier - das Druckcenter: arbeiten_mit_conaktiv_mobile/druckcenter/index.md
     - Kennwort ändern: arbeiten_mit_conaktiv_mobile/kennwort-aendern/index.md
     - Abmelden: arbeiten_mit_conaktiv_mobile/abmelden/index.md
+  - Konfiguration der Oberfläche:
+    - Einleitung:  konfiguration/index.md
+    - Listen-Editor:
+      - Einleitung: konfiguration/listen-editor/index.md
+      - Eine neue Liste anlegen: konfiguration/listen-editor/neue-liste-anlegen/index.md
+    - Layout-Editor: konfiguration/layout-editor/index.md
+    - Seiten-Editor: konfiguration/seiten-editor/index.md
+    - Menüleisten-Editor: konfiguration/menueleisten-editor/index.md
 theme:
   name: material
   language: de
@@ -30,9 +38,9 @@ markdown_extensions:
   - attr_list
 plugins:
   - search
-  - mkpdfs:
-      design: mkpdfs-design-sample/report.css
-      toc_title: Inhaltsverzeichnis
-      company: Connectivity GmbH
-      author: Stephan Grossmann, Sascha Stumm
-      output_path: pdf/handbuch_mobile4.pdf
+#  - mkpdfs:
+#      design: mkpdfs-design-sample/report.css
+#      toc_title: Inhaltsverzeichnis
+#      company: Connectivity GmbH
+#      author: Stephan Grossmann, Sascha Stumm
+#      output_path: pdf/handbuch_mobile4.pdf

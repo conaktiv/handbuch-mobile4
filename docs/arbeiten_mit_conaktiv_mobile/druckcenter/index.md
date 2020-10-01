@@ -4,10 +4,12 @@ Die ConAktiv® Mobile4 bietet mit dem Druckcenter eine zentrale Stelle, um Dokum
 
 Folgende Dokumente können gedruckt werden:
 
-- [Stundennachweis](#stundennachweis)
-- [Monatszettel](#monatszettel)
-- [Leistungsnachweis](#leistungsnachweis)
-- [Reisekosten](#reisekosten)
+- [Vom Bildschirm aufs Papier - das Druckcenter](#vom-bildschirm-aufs-papier---das-druckcenter)
+  - [Das Druckcenter aufrufen](#das-druckcenter-aufrufen)
+  - [Stundennachweis](#stundennachweis)
+  - [Monatszettel](#monatszettel)
+  - [Leistungsnachweis](#leistungsnachweis)
+  - [Reisekosten](#reisekosten)
 
 ## Das Druckcenter aufrufen
 
@@ -80,4 +82,3 @@ Der Stundennachweis wird für den angemeldeten Mitarbeiter für einen Monat zusa
 ## Leistungsnachweis
 
 ## Reisekosten
-
