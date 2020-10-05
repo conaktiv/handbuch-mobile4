@@ -32,6 +32,12 @@ article .number {
     background-color: #f00;
     border-radius:    25px;
 }
+article .number.secondary {
+    background-color: #fa0;
+}
+article .number.space-right {
+    margin-right: 6px;
+}
 article .clear {
     clear: both;
 }
