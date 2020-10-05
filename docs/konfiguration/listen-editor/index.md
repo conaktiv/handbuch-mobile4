@@ -6,9 +6,9 @@ In der ConAktiv® Mobile4 gibt es mehrere Arten von Listen, die sich über den L
 
 |                        |                                                     |
 | ---------------------- | --------------------------------------------------- |
-| **Bildschirmlisten**   | ![Bildschirmliste](./art_bildschirmliste.png#small) |
-| **Tabellen**           | ![Tabelle](./art_tabelle.png#small)                 |
-| **Suchergebnislisten** | ![Suchergebnisliste](./art_suchergebnis.png#small)  |
+| **Bildschirmlisten**<br>Stellen Datensätze eines Moduls in Listenform dar.   | ![Bildschirmliste](./art_bildschirmliste.png#small) |
+| **Tabellen**<br>Stellen Datensätze eines Moduls in Tabellenform dar.           | ![Tabelle](./art_tabelle.png#small)                 |
+| **Suchergebnislisten**<br>Werden in Suchfeldern genutzt, wenn mehrere Datensätze gefunden werden. | ![Suchergebnisliste](./art_suchergebnis.png#small)  |
 
 Es können beliebige Datenbankfelder, Formeln und Diagramme in Listen eingebaut werden.
 

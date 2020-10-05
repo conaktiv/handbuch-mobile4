@@ -21,6 +21,14 @@ nav:
     - Listen-Editor:
       - Einleitung: konfiguration/listen-editor/index.md
       - Eine neue Liste anlegen: konfiguration/listen-editor/neue-liste-anlegen/index.md
+      - Liste bearbeiten:
+        - Aufteilung des Editors: konfiguration/listen-editor/liste-bearbeiten/index.md
+        - Konfiguration der Liste:
+          - Allgemein: konfiguration/listen-editor/liste-bearbeiten/konfiguration/index.md
+          - Sortierung:
+            - Der Sortierungsabschnitt: konfiguration/listen-editor/liste-bearbeiten/konfiguration/sortierung/index.md
+            - Datenbankfeld auswählen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/sortierung/datenbankfeld-auswaehlen.md
+            - Gruppierung und Zwischensummen einstellen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/sortierung/gruppierung-einstellen.md
     - Layout-Editor: konfiguration/layout-editor/index.md
     - Seiten-Editor: konfiguration/seiten-editor/index.md
     - Menüleisten-Editor: konfiguration/menueleisten-editor/index.md
