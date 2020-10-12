@@ -1,17 +1,40 @@
 # Todo Handbuch Mobile4:
 
  Editoren:
-   ☐ Menüleisten-Editor
-   ☐ Seiten-Editor
-   ☐ Layout-Editor
-   ☐ Listen-Editor
+   
+   Listen-Editor:
+     ☐ Gesamtsummen
+     ☐ Direktaktionen
+     ☐ Aktionen
+     ☐ Schematische Darstellung Liste
+     Zeilenbearbeitung:
+       ☐ Zeile
+       ☐ Abstände
+       ☐ Vertikale Ausrichtung
+     Spaltenbearbeitung:
+       ☐ Spalte
+       ☐ Breite
+       ☐ Höhe
+       ☐ Abstände
+     Elementbearbeitung:
+       ☐ Feldtyp
+       ☐ Eigener Titel
+       ☐ Datenbankfeld
+       ☐ Eigenschaften
+       ☐ Darstellungsoptionen
+
+   Menüleisten-Editor:
+     ...
+   Seiten-Editor:
+     ...
+   Layout-Editor:
+     ...
 
  ☐ Zeiterfassung
 
  ☐ Reisekostenerfassung
 
- ☐ Druckcenter beschreiben
-   ✔ Nutzung in der App @done (20-10-01 09:13)
+ Druckcenter:
    ☐ Serverseitige Einrichtung
 
 

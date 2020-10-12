@@ -19,7 +19,7 @@ Durch Betätigen der Schaltfläche "AV_Name" <span class="number">2</span> ersch
 
 <div class="clear"></div>
 
-![Liste bearbeiten Sortierung Feld aktiv](./liste-bearbeiten-sortierung-feld-aktiv.png#small){ align=right }
+![Liste bearbeiten Sortierung Feld aktiv](./liste-bearbeiten-sortierung-feld-aktiv.png#small-square){ align=right }
 
 Das aktive Feld wird durch einen Haken auf der rechten Seite gekennzeichnet.
 

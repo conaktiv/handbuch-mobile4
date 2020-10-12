@@ -22,7 +22,3 @@ Wenn man plant, Listen für Geräte mit unterschiedlichen Bildschirmgrößen zu 
     Damit ist es möglich, für bestimmte Benutzer oder Gruppen unterschiedliche Listen für das gleiche Modul auf dem gleichen Ausgabegerät anzuzeigen.
 
 <div class="clear"></div>
-
-## Die Sortierung einstellen
-
-Aufgrund des Umfangs wird die [Einstellung der Sortierung in einem eigenen Kapitel](./sortierung/index.md) beschrieben.

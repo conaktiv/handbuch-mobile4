@@ -29,9 +29,13 @@ nav:
             - Der Sortierungsabschnitt: konfiguration/listen-editor/liste-bearbeiten/konfiguration/sortierung/index.md
             - Datenbankfeld auswählen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/sortierung/datenbankfeld-auswaehlen.md
             - Gruppierung und Zwischensummen einstellen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/sortierung/gruppierung-einstellen.md
+          - Gesamtsummen:
+            - Der Gesamtsummenabschnitt: konfiguration/listen-editor/liste-bearbeiten/konfiguration/gesamtsummen/index.md
+            - Datenbankfeld auswählen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/gesamtsummen/datenbankfeld-auswaehlen.md
     - Layout-Editor: konfiguration/layout-editor/index.md
     - Seiten-Editor: konfiguration/seiten-editor/index.md
     - Menüleisten-Editor: konfiguration/menueleisten-editor/index.md
+    - Darstellungsoptionen-Editor: konfiguration/darstellungsoptionen-editor/index.md
 theme:
   name: material
   language: de
