@@ -23,6 +23,14 @@ img[src*="#small"] {
     max-width:     50%;
     margin-bottom: 19px;
 }
+img[src*="#small-square"] {
+    max-width:     40.5%;
+    margin-bottom: 19px;
+}
+img[src*="#medium"] {
+    max-width:     65%;
+    margin-bottom: 19px;
+}
 article .number {
     display:          inline-block;
     width:            1.55em;
@@ -43,6 +51,9 @@ article .clear {
 }
 article .margin-bottom {
     margin-bottom:  38px;
+}
+article .margin-bottom-large {
+    margin-bottom:  52px;
 }
 
 @page {
