@@ -2,7 +2,9 @@
 
 Ein Eintrag in einer Liste kann über sogenannte "Direktaktionen" verfügen.
 
-Diese bieten einen Schnellzugriff auf Aktionen wie "Bearbeiten" oder "Löschen" für den Listeneintrag.
+Diese bieten einen Schnellzugriff auf Standardaktionen wie "Bearbeiten" oder "Löschen" für den Listeneintrag, so dass nicht erst der Datensatz geöffnet werden muss.
+
+Zusätzlich kann das Modul, für das die Liste definiert ist, auch eigene Direktaktionen anbieten. Bei Aufgaben gibt es z.B. "Auf erledigt setzen", bei Rechnungen "Auf geprüft setzen", bei Dokumenten "Herunterladen", usw.
 
 ## Beispiele
 
