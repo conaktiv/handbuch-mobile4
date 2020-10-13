@@ -33,6 +33,7 @@ nav:
             - Bearbeiten: konfiguration/listen-editor/liste-bearbeiten/konfiguration/gesamtsummen/index.md
             - Datenbankfeld auswählen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/gesamtsummen/datenbankfeld-auswaehlen.md
           - Direktaktionen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/direktaktionen/index.md
+          - Aktionen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/aktionen/index.md
     - Layout-Editor: konfiguration/layout-editor/index.md
     - Seiten-Editor: konfiguration/seiten-editor/index.md
     - Menüleisten-Editor: konfiguration/menueleisten-editor/index.md
