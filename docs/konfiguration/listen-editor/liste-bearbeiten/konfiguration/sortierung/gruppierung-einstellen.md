@@ -101,7 +101,7 @@ Jedes Zwischensummenfeld kann optional mit beliebig vielen Darstellungsoptionen 
 
 Um eine Darstellungsoption hinzuzufügen, klicken Sie auf "+ Formatierung hinzufügen".
 
-Bei Zahlenfeldern ist hier natürlich die Formatierung als Zahl (Tausendertrennzeichen, Nachkommastellen) interessant. Es gibt aber noch eine ganze Menge anderer Optionen. Über diese und die Bedienung des Editors können Sie in Kürze im Kapitel über den Darstellungsoptionen-Editor nachlesen.
+Bei Zahlenfeldern ist hier natürlich die Formatierung als Zahl (Tausendertrennzeichen, Nachkommastellen) interessant. Es gibt aber noch eine ganze Menge anderer Optionen. Über diese und die Bedienung des Editors können Sie in [im Kapitel über den Darstellungsoptionen-Editor nachlesen](../../../../darstellungsoptionen-editor/index.md).
 
 <div class="clear"></div>
 

@@ -2,7 +2,7 @@
 
 Für eine Liste können neben [Zwischensummen](../sortierung/gruppierung-einstellen.md#zwischensummen-einstellen) auch Gesamtsummen eingestellt werden.
 
-<div class="margin-bottom-large"></div>
+## Beispiele
 
 ![Gesamtsumme Beispiel Liste](./gesamtsummen_bsp_liste.png#smartphone){ align=right }
 
@@ -16,11 +16,11 @@ Wir werden die Konfiguration der Gesamtsummen am Beispiel der Bildschirmliste f�
 
 <div class="clear"></div>
 
-## Der Gesamtsummen-Abschnitt
+## Der Gesamtsummen-Abschnitt im Editor
 
 ![Gesamtsumme Abschnitt](./gesamtsummen-abschnitt.png#smartphone){ align=right }
 
-In unserem Beispiel zeigt der Geamtsummenabschnitt an, dass in der Liste für ein Feld, nämlich "RC_SummeSysCurrency", eine Gesamtsumme gebildet wird.
+In unserem Beispiel zeigt der Gesamtsummenabschnitt an, dass in der Liste für ein Feld, nämlich "RC_SummeSysCurrency", eine Gesamtsumme gebildet wird.
 
 Durch Betätigen der Schaltfläche "RC_SummeSysCurrency" <span class="number">2</span> erscheinen zusätzliche Bedienelemente.
 
@@ -28,6 +28,8 @@ Durch Betätigen der Schaltfläche "RC_SummeSysCurrency" <span class="number">2<
     Um statttdessen ein neues Sortierfeld hinzuzufügen, würde man die Schaltfläche "+ Summenfeld hinzufügen" <span class="number">1</span> betätigen.
 
 <div class="clear"></div>
+
+### Bedienelemente für ein Gesamtsummenfeld
 
 ![Gesamtsummen Feld aktiv](./gesamtsummen-feld-aktiv.png#small-square){ align=right }
 
