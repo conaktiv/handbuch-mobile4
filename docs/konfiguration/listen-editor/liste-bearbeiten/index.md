@@ -4,7 +4,7 @@ Nach dem Erstellen einer neuen oder dem Laden einer vorhanden Liste landet man i
 
 Dieser ist in vier Bereiche unterteilt:
 
-![Liste bearbeiten start](./liste-bearbeiten-start.png#)
+![Liste bearbeiten start](./liste-bearbeiten-start.png)
 
 <span class="number space-right">1</span> [Werkzeugleiste](./werkzeugleiste/index.md)
 
@@ -18,6 +18,6 @@ Konfiguration, Sortierung, Gesamtsummen, Direktaktionen und Aktionen (Export, Im
 
 Die schematische Darstellung der Listenstruktur mit Auswahl des zu bearbeitenden Elements.
 
-<span class="number space-right">4</span> [Bearbeitungsansicht für Listenelemente](./bearbeitungsansicht/index.md)
+<span class="number space-right">4</span> Bearbeitungsansichten
 
-Zeigt Einstellungen für das ausgewählte Element.
+Zeigt Einstellungen für die ausgewählte [Zeile](./bearbeitungsansichten/zeilen.md), [Spalte](./bearbeitungsansichten/spalten.md) oder das ausgewählte [Element](./bearbeitungsansichten/elemente.md).

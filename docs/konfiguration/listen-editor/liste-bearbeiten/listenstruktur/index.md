@@ -4,7 +4,7 @@ Listen setzen sich in der ConAktiv® Mobile4 zusammen aus Zeilen, Spalten und El
 
 Dieser Aufbau wird in der Listenstrukturansicht schematisch dargestellt.
 
-Durch Auswahl einer Zeile, Spalte oder eines Elements werden die Bearbeitungsoptionen dafür im Detailbearbeitungsbereich des Editors angezeigt.
+Durch Auswahl einer Zeile, Spalte oder eines Elements werden die Bearbeitungsoptionen dafür in der Bearbeitungsansicht des Editors angezeigt.
 
 ![Listenstruktur](./listenstruktur.png)
 
@@ -14,17 +14,23 @@ Durch Auswahl einer Zeile, Spalte oder eines Elements werden die Bearbeitungsopt
 
 Um eine Zeile auszuwählen, klicken Sie irgendwo in die Fläche der Zeile (rot markierter Bereich im Bildschirmfoto).
 
+Nach der Auswahl [erscheint in der Bearbeitungsansicht die Maske für die Zeilenbearbeitung](../bearbeitungsansichten/zeilen.md).
+
 ## Auswahl einer Spalte
 
 ![Auswahl Spalte](auswahl-spalte.png)
 
 Um eine Spalte auszuwählen, klicken Sie irgendwo in die Fläche der Spalte (rot markierter Bereich im Bildschirmfoto).
 
+Nach der Auswahl [erscheint in der Bearbeitungsansicht die Maske für die Spaltenbearbeitung](../bearbeitungsansichten/spalten.md).
+
 ## Auswahl eines Elements
 
 ![Auswahl Element](auswahl-element.png)
 
 Um ein Element auszuwählen, klicken Sie irgendwo in die Fläche des Elements (rot markierter Bereich im Bildschirmfoto).
+
+Nach der Auswahl [erscheint in der Bearbeitungsansicht die Maske für die Bearbeitung des Elements](../bearbeitungsansichten/elemente.md).
 
 ## Grafische Hinweise auf Einstellungen
 

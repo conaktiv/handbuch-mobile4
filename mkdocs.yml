@@ -35,9 +35,11 @@ nav:
             - Datenbankfeld auswählen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/gesamtsummen/datenbankfeld-auswaehlen.md
           - Direktaktionen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/direktaktionen/index.md
           - Aktionen: konfiguration/listen-editor/liste-bearbeiten/konfiguration/aktionen/index.md
-        - Darstellung der Listenstruktur: konfiguration/listen-editor/liste-bearbeiten/listenstruktur/index.md
-        - Bearbeitungsansicht für Listenelemente:
-          - Allgemein: konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansicht/index.md
+        - Listenstruktur: konfiguration/listen-editor/liste-bearbeiten/listenstruktur/index.md
+        - Bearbeitungsansichten:
+          - Zeilen: konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/zeilen.md
+          - Spalten: konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/spalten.md
+          - Elemente: konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/elemente.md
       - Liste einem Benutzer/Gruppe zuordnen: konfiguration/listen-editor/liste-zuordnen/index.md
     - Layout-Editor: konfiguration/layout-editor/index.md
     - Seiten-Editor: konfiguration/seiten-editor/index.md
