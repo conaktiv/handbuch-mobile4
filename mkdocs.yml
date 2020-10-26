@@ -41,7 +41,9 @@ nav:
           - Spalten: konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/spalten.md
           - Elemente:
             - Bearbeiten: konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/elemente.md
-            - Formel : konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/formeln/index.md
+            - Formel : konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/formel/index.md
+            - Datenbankfeld : konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/datenbankfeld/index.md
+            - Diagramm : konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/diagramm/index.md
       - Liste einem Benutzer/Gruppe zuordnen: konfiguration/listen-editor/liste-zuordnen/index.md
     - Layout-Editor: konfiguration/layout-editor/index.md
     - Seiten-Editor: konfiguration/seiten-editor/index.md
