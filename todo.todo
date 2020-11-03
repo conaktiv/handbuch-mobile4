@@ -2,32 +2,8 @@
 
  Editoren:
    
-   Listen-Editor:
-     ✔ Gesamtsummen @done (20-10-13 08:58)
-     ✔ Direktaktionen @done (20-10-13 11:36)
-     ✔ Aktionen @done (20-10-13 13:39)
-
-     ✔ Werkzeugleiste @done (20-10-21 11:19)
-     ✔ Schematische Darstellung Liste @done (20-10-21 11:19)
-
-     Zeilenbearbeitung:
-       ✔ Zeile @done (20-10-21 17:23)
-       ✔ Abstände @done (20-10-23 11:21)
-       ✔ Vertikale Ausrichtung @done (20-10-23 11:21)
-     Spaltenbearbeitung:
-       ✔ Spalte @done (20-10-23 13:13)
-       ✔ Breite @done (20-10-23 13:13)
-       ✔ Höhe @done (20-10-23 13:13)
-       ✔ Abstände @done (20-10-23 13:13)
-     Elementbearbeitung:
-       ✔ Feldtyp @done (20-10-30 08:48)
-         ✔ Leer @done (20-10-26 16:04)
-         ✔ Formel @done (20-10-26 16:04)
-         ✔ Datenbankfeld @done (20-10-26 16:04)
-         ✔ Diagramm @done (20-10-30 08:48)
-       ✔ Eigenschaften @done (20-10-30 08:48)
-       ☐ Darstellungsoptionen
-
+   Darstellungsoptionen-Editor:
+     ...
    Menüleisten-Editor:
      ...
    Seiten-Editor:

@@ -45,7 +45,28 @@ nav:
             - Datenbankfeld : konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/datenbankfeld/index.md
             - Diagramm : konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/diagramm/index.md
       - Liste einem Benutzer/Gruppe zuordnen: konfiguration/listen-editor/liste-zuordnen/index.md
-    - Layout-Editor: konfiguration/layout-editor/index.md
+    - Layout-Editor:
+      - Einleitung: konfiguration/layout-editor/index.md
+      - Eine neue Eingabemaske anlegen: konfiguration/layout-editor/neues-layout-anlegen/index.md
+      - Eingabemaske bearbeiten, speichern und löschen:
+        - Aufteilung des Editors: konfiguration/layout-editor/layout-bearbeiten/index.md
+        - Die Werkzeugleiste: konfiguration/layout-editor/layout-bearbeiten/werkzeugleiste/index.md
+        - Konfiguration der Eingabemaske:
+          - Allgemein: konfiguration/layout-editor/layout-bearbeiten/konfiguration/index.md
+          - Funktionen: konfiguration/layout-editor/layout-bearbeiten/konfiguration/funktionen/index.md
+        - Eingabemaskenstruktur: konfiguration/layout-editor/layout-bearbeiten/layoutstruktur/index.md
+        - Bearbeitungsansichten:
+          - Zeilen: konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/zeilen.md
+          - Spalten: konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/spalten.md
+          - Elemente:
+            - Feldtyp auswählen: konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/elemente.md
+            - Dokumentenfeld : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/dokumentenfeld/index.md
+            - Freitextfeld : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/freitextfeld/index.md
+            - Hochladenfeld : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/hochladenfeld/index.md
+            - Formel : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/formel/index.md
+            - Datenbankfeld : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/datenbankfeld/index.md
+            - Tabsektion : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/tabsektion/index.md
+      - Eingabemaske einem Benutzer/Gruppe zuordnen: konfiguration/layout-editor/layout-zuordnen/index.md
     - Seiten-Editor: konfiguration/seiten-editor/index.md
     - Menüleisten-Editor: konfiguration/menueleisten-editor/index.md
     - Darstellungsoptionen-Editor: konfiguration/darstellungsoptionen-editor/index.md
