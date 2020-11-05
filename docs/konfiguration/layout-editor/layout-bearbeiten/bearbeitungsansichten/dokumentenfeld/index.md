@@ -5,6 +5,9 @@ An jeden Datensatz in ConAktiv® können direkt Dokumente angehängt werden. Das
 !!! warning "Hinweis"
     Für dieses Feld ist keine Lizenz für das Modul "Dokumente" erforderlich. In seiner Umsetzung entspricht es der [Büroklammer-Funktion im ConAktiv® Client](https://handbuch.conaktiv.de/wiki/version-17-6/kontaktmodule/dokumente/externe-dokumente-an-datensatz-anheften/anwendung/neues-dokument-anhaengen/).
 
+!!! warning "Hinweis"
+    Für Eingabemasken für das Modul "Dokumente" verwenden Sie bitte das ["Hochladenfeld"](../hochladenfeld/index.md).
+
 ## Konfiguration
 
 ![Dokumentenfeld Übersicht](./dokumentenfeld_uebersicht.png#smartphone){ align=right }
