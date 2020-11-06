@@ -52,9 +52,41 @@ Jedes Datenbankfeld hat einen Datentyp, z.B. "Text", "Zahl" oder "Datum". Je nac
 
 Gibt es für einen Datentyp nur ein einziges Eingabefeld, wird der Abschnitt "Eingabefeld wählen" nicht angezeigt.
 
-Nachfolgend erfolgt eine Aufzählung der möglichen Eingabefelder.
+## Eingabefeld allgemeine Optionen
+
+![Eingabefeld Optionen Allgemein](./ef-optionen.png#smartphone){ align=right }
+
+Für alle Eingabefelder gibt es allgemeingültige Optionen.
+
+### <span class="number space-right">1</span> Titel nicht anzeigen
+
+Ist diese Option aktiv, wird die Beschriftung des Eingabefeldes versteckt.
+
+### <span class="number space-right">2</span> Fettschrift
+
+Wenn aktiviert, wird das Feld in Fettschrift dargestellt.
+
+### <span class="number space-right">3</span> Mussfeld
+
+Soll sichergestellt werden, dass Anwender einen Wert in das Eingabefeld eintragen, sollte diese Option angehakt werden.
+
+### <span class="number space-right">4</span> Nicht eingebbar
+
+Verwenden Sie diese Option, um zu verhindern, dass Anwender etwas in das Eingabefeld eingeben können.
+
+### <span class="number space-right">5</span> Nicht änderbar
+
+Mit dieser Option ist das Eingabefeld einmalig bei Neuanlage eines Datensatzes eingebbar. Wird der Datensatz später bearbeitet, ist das Feld nicht mehr eingebbar.
+
+### <span class="number space-right">6</span> Nicht sichtbar
+
+Diese Option kann nicht verändert werden und dient nur der Information. Ist ein Datenbankfeld in der ConAktiv® Struktur auf "Nicht sichtbar" gesetzt, erscheint es nicht in der ConAktiv® Mobile4 Eingabemaske.
 
 <div class="clear"></div>
+
+## Eingabefelder Beschreibung
+
+Nachfolgend werden alle möglichen Eingabefelder aufgeführt und beschrieben.
 
 ### Textfeld einzeilig
 
