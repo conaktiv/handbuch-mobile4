@@ -18,7 +18,7 @@ Das Popup zur Auswahl des Datenbankfelds teilt sich in drei Bereiche auf:
 
 <span class="number space-right">1</span> **Modulauswahl**
 
-Das Datenbankfeld kann nicht nur aus den Feldern des Listenmoduls gewählt werden, sondern auch aus denen anderer Module. Alle Module, die mit dem Listenmodul verknüpft sind, tauchen in der Modulauswahl auf.
+Das Datenbankfeld kann nicht nur aus den Feldern des Layoutmoduls gewählt werden, sondern auch aus denen anderer Module. Alle Module, die mit dem Listenmodul verknüpft sind, tauchen in der Modulauswahl auf.
 
 Ein Klick auf ein Modul lädt dessen Datenbankfelder in der Datenbankfeldliste.
 
