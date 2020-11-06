@@ -64,7 +64,7 @@ nav:
             - Freitextfeld : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/freitextfeld/index.md
             - Hochladenfeld : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/hochladenfeld/index.md
             - Formel : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/formel/index.md
-            - Datenbankfeld : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/datenbankfeld/index.md
+            - Datenbank- und Eingabefeld : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/datenbankfeld/index.md
             - Tabsektion : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/tabsektion/index.md
       - Eingabemaske einem Benutzer/Gruppe zuordnen: konfiguration/layout-editor/layout-zuordnen/index.md
     - Seiten-Editor: konfiguration/seiten-editor/index.md
