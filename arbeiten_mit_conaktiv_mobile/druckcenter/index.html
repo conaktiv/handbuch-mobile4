@@ -453,6 +453,40 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#die-druckfunktion-einrichten" class="md-nav__link">
+    Die Druckfunktion einrichten
+  </a>
+  
+    <nav class="md-nav" aria-label="Die Druckfunktion einrichten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#druckordner-anlegen" class="md-nav__link">
+    Druckordner anlegen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#druckordnerpfad-und-drucker-definieren-und-aktivieren" class="md-nav__link">
+    Druckordnerpfad und Drucker definieren und aktivieren
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#druckordnerpfad-und-drucker-zur-verfugung-stellen" class="md-nav__link">
+    Druckordnerpfad und Drucker zur Verfügung stellen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#das-druckcenter-aufrufen" class="md-nav__link">
     Das Druckcenter aufrufen
   </a>
@@ -1389,6 +1423,40 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#die-druckfunktion-einrichten" class="md-nav__link">
+    Die Druckfunktion einrichten
+  </a>
+  
+    <nav class="md-nav" aria-label="Die Druckfunktion einrichten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#druckordner-anlegen" class="md-nav__link">
+    Druckordner anlegen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#druckordnerpfad-und-drucker-definieren-und-aktivieren" class="md-nav__link">
+    Druckordnerpfad und Drucker definieren und aktivieren
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#druckordnerpfad-und-drucker-zur-verfugung-stellen" class="md-nav__link">
+    Druckordnerpfad und Drucker zur Verfügung stellen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#das-druckcenter-aufrufen" class="md-nav__link">
     Das Druckcenter aufrufen
   </a>
@@ -1444,12 +1512,44 @@
 <p>Folgende Dokumente können gedruckt werden:</p>
 <ul>
 <li><a href="#vom-bildschirm-aufs-papier---das-druckcenter">Vom Bildschirm aufs Papier - das Druckcenter</a></li>
-<li><a href="#das-druckcenter-aufrufen">Das Druckcenter aufrufen</a></li>
-<li><a href="#stundennachweis">Stundennachweis</a></li>
+<li><a href="#die-druckfunktion-einrichten">Die Druckfunktion einrichten</a></li>
+<li><a href="#das-druckcenter-aufrufen">Das Druckcenter aufrufen</a> - <a href="#stundennachweis">Stundennachweis</a></li>
 <li><a href="#monatszettel">Monatszettel</a></li>
 <li><a href="#leistungsnachweis">Leistungsnachweis</a></li>
 <li><a href="#reisekosten">Reisekosten</a></li>
 </ul>
+<h2 id="die-druckfunktion-einrichten">Die Druckfunktion einrichten</h2>
+<p>Um das Druckcenter in ConAktiv® Mobile4 nutzen zu können, müssen einmalig ein paar wenige Konfigurationsschritte in ConAktiv® erledigt werden.</p>
+<h3 id="druckordner-anlegen">Druckordner anlegen</h3>
+<p>Auf dem ConAktiv® Server muss ein Ordner vorhanden sein, in welchem ein Ausdruck temporär abgelegt werden kann.
+Sofern es auf dem Server bereits ein solcher Ordner existiert (z.B. C:\Temp), dann verwenden Sie diesen, wenn nicht, legen Sie den Ordner neu an.</p>
+<h3 id="druckordnerpfad-und-drucker-definieren-und-aktivieren">Druckordnerpfad und Drucker definieren und aktivieren</h3>
+<p>Über einen ConAktiv® Client müssen Sie in den Systemparametern ConAktiv® mitteilen, wo sich der temporäre Ordner befindet. Darüber hinaus legen Sie hier fest, welcher Drucker zur Erstellung des PDF-Ausdrucks verwendet werden soll.</p>
+<p>Melden Sie sich mit einer Administratorenrolle an ConAktiv® an und öffnen Sie die Systemparameter und dort als erstes die Pfad-Einstellungen <span class="number">1</span>. </p>
+<p><img alt="Druckcenter Drucker Systemparameter" src="druckcenter_drucker_systemparameter.png" /></p>
+<p>Legen Sie eine neue Einstellung an. In dem Eingabedialog wählen Sie als Pfad-Typ "Server" und als Dokument-Art "PDF Web Service" <span class="number">1</span>.</p>
+<p><img alt="Druckcenter Drucker Ordner" src="druckcenter_drucker_web_service_folder.png" /></p>
+<p>Geben Sie der Pfadeinstellung im Feld "Beschreibung" <span class="number">2</span> einen aussagekräftigen Namen und hinterlegen Sie den Pfad im Feld "Pfad" <span class="number">3</span>.</p>
+<p>Klicken Sie abschließend auf den Knopf "OK" um den Pfad zu speichern. Verlassen Sie die Pfadeinstellungen.</p>
+<p>Öffnen Sie im nächsten Schritt in den Systemparametern die Druckereinstellungen <span class="number">2</span>.</p>
+<p><img alt="Druckcenter Drucker systemparameter" src="druckcenter_drucker_systemparameter.png" /></p>
+<p>Legen Sie eine neue Einstellung an.  </p>
+<p><img alt="Druckcenter Drucker Drucker" src="druckcenter_drucker_web_service_printer.png" /></p>
+<p>In dem Eingabedialog wählen Sie als Kürzel "PDF-Drucker Server" <span class="number">1</span> aus.</p>
+<p>Geben Sie der Druckereinstellung in den Feldern "Name" und "Beschreibung" <span class="number">2</span> eine aussagekräftige Bezeichnung.
+Wählen Sie aus dem PopUp-Menü "Drucker" den Drucker "Microsoft Print to PDF" aus <span class="number">3</span>.
+Klicken Sie abschließend auf den Knopf "OK" um die Druckereinstellung zu speichern. Verlassen Sie die Druckereinstellungen und die Systemparameter.</p>
+<div class="admonition info">
+<p class="admonition-title">Sofern Ihr Server den Microsoft Print to PDF-Drucker nicht unterstützt, können Sie alternativ die Ghostscriptlösung einsetzen. Weitere Informationen hierzu finden Sie unter http://handbuch.conaktiv.de/wiki/version-17-6/kontaktmodule/e-mail/einrichtung-des-moduls-e-mail/belegversand-als-e-mail-anhang/variante-3-microsoft-windows-7-und-8-und-10-mit-ghostscript/installation-ghostscript-zur-erstellung-der-pdf-datei/</p>
+</div>
+<h3 id="druckordnerpfad-und-drucker-zur-verfugung-stellen">Druckordnerpfad und Drucker zur Verfügung stellen</h3>
+<p>Im letzten Schritt müssen Sie den Drucker und den Druckordnerpfad in den allgemeinen Einstellungen für die Mastergruppe (=für alle Benutzer) aktivieren.
+Öffnen Sie die Einstellungen, markieren Sie die Mastergruppe <span class="number">1</span> und klicken Sie auf der rechten Seite der Einstellungen auf den Knopf "Allgemeine Einstellungen" <span class="number">2</span>.</p>
+<p><img alt="Druckcenter Drucker Einstellungen" src="druckcenter_drucker_settings.png" /></p>
+<p>In den allgemeinen Einstellungen erweitern Sie die Rubrik "System" und aktivieren die Druckereinstellung <span class="number">1</span>  und die Pfadeinstellung <span class="number">2</span> durch Doppelklick, sodass die betreffenden Einträge fett dargestellt werden.</p>
+<p><img alt="Druckcenter Drucker Einstellungen System" src="druckcenter_drucker_settings_system.png" /></p>
+<p>Schließen und sichern Sie die Einstellungen und führen Sie einen Benutzer- oder Gruppenwechsel durch, um die Einstellungen zu aktivieren.</p>
+<p>Damit ist die Druckfunktion eingerichtet und Sie können über das Druckcenter in ConAktiv® Mobile4 Stunden- und Leistungsnachweise sowie Monatszettel drucken.</p>
 <h2 id="das-druckcenter-aufrufen">Das Druckcenter aufrufen</h2>
 <div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Desktop</label><div class="tabbed-content">
 <p>Über das Menü "Verwaltung" <span class="number">1</span> rufen Sie das Druckcenter <span class="number">2</span> auf:</p>
