@@ -7,7 +7,30 @@
    Menüleisten-Editor:
      ...
    Seiten-Editor:
-     ...
+     ☐ Aufruf
+     ☐ Vorhandene Seite bearbeiten
+     ☐ Neue Seite anlegen
+     ☐ Seite bearbeiten
+       ☐ Konfiguration
+       ☐ Strukturansicht
+       ☐ Bearbeitungsansichten
+         ☐ Zeile
+         ☐ Spalte
+         ☐ Element
+           ☐ Kalender
+           ☐ Diagramm
+           ☐ Datum mit Blätterfunktion
+           ☐ Wochenanzeige mit Blätterfunktion
+           ☐ HTML Text
+           ☐ Zeitbuchungsinformationen
+           ☐ Urlaub Informationen
+           ☐ Leeres Element
+           ☐ Abmelden
+           ☐ Benutzer Informationen
+           ☐ Webseite
+           ☐ Layout
+           ☐ Liste
+         ☐ Abhängigkeiten zwischen Elementen
    Layout-Editor:
      ...
 

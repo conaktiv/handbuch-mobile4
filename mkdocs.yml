@@ -67,7 +67,12 @@ nav:
             - Datenbank- und Eingabefeld : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/datenbankfeld/index.md
             - Tabsektion : konfiguration/layout-editor/layout-bearbeiten/bearbeitungsansichten/tabsektion/index.md
       - Eingabemaske einem Benutzer/Gruppe zuordnen: konfiguration/layout-editor/layout-zuordnen/index.md
-    - Seiten-Editor: konfiguration/seiten-editor/index.md
+    - Seiten-Editor:
+      - Einleitung: konfiguration/seiten-editor/index.md
+      - Vorhandene Seite bearbeiten: konfiguration/seiten-editor/vorhandene-seite-auswaehlen/index.md
+      - Seite bearbeiten, speichern und löschen:
+        - Aufteilung des Editors: konfiguration/seiten-editor/seite-bearbeiten/index.md
+      - Seite einem Benutzer/Gruppe zuordnen: konfiguration/seiten-editor/seite-zuordnen/index.md
     - Menüleisten-Editor: konfiguration/menueleisten-editor/index.md
     - Darstellungsoptionen-Abschnitt: konfiguration/darstellungsoptionen/index.md
     - Darstellungsoptionen-Editor: konfiguration/darstellungsoptionen-editor/index.md
