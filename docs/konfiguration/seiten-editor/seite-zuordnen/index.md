@@ -34,6 +34,8 @@ Um die Seite zuzuordnen, muss ein Doppelklick auf den Seitenname durchgeführt w
 
 Um die Zuordnung zu speichern, betätigen Sie die Schaltfläche "Speichern und Schließen" oder "Speichern" <span class="number">4</span>.
 
+### Matrix zur Benennung von Bereichen für Seiten
+
 Nachfolgend eine Matrix zur Benennung der Bereiche für die Zuordnung von Seiten unterhalb eines Moduls:
 
 | Seite als Layout definiert | Bildschirmgröße | Benennung des Bereichs       |
