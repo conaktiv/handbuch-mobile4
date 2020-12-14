@@ -40,5 +40,6 @@ Je nach Browser kann hier eine Abfrage kommen, ob Sie diese Aktion erlauben woll
 
 ## Seite auswählen
 
-Um eine Seite zum Bearbeiten auszuwählen, klicken Sie einmal auf ihren Namen <span class="number">1</span> und betätigen den daraufhin erscheinenden Haken rechts oben im Fenster <span class="number">2</span>.
+![Alle herunterladen](./seite-auswaehlen.png)
 
+Um eine Seite zum Bearbeiten auszuwählen, klicken Sie auf ihren Namen in der Liste <span class="number">1</span>. Dadurch gelangen Sie direkt [in die Bearbeitungsansicht](../seite-bearbeiten/index.md) für diese Seite.
