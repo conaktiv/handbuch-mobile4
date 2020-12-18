@@ -76,6 +76,12 @@ nav:
         - Konfiguration der Seite:
           - Allgemein: konfiguration/seiten-editor/seite-bearbeiten/konfiguration/index.md
           - Aktionen: konfiguration/seiten-editor/seite-bearbeiten/konfiguration/aktionen/index.md
+        - Seitenstruktur: konfiguration/seiten-editor/seite-bearbeiten/seitenstruktur/index.md
+        - Bearbeitungsansichten:
+          - Zeilen: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/zeilen.md
+          - Spalten: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/spalten.md
+          - Elemente:
+            - Bearbeiten: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/elemente.md
       - Seite einem Benutzer/Gruppe zuordnen: konfiguration/seiten-editor/seite-zuordnen/index.md
     - Menüleisten-Editor: konfiguration/menueleisten-editor/index.md
     - Darstellungsoptionen-Abschnitt: konfiguration/darstellungsoptionen/index.md
