@@ -67,4 +67,23 @@ Die Einstellung "Zeile bei Zoom nicht ausblenden" verhindert, dass die Elemente 
 
 ## <span class="number space-right">4</span> Abstände
 
+![Zeile Abstände](./zeile-abstaende.png#small){ align=right }
+
+Die Abstände einer Zeile in jede Richtung lassen sich getrennt einstellen.
+
+<div class="clear"></div>
+
 ## <span class="number space-right">5</span> Tab-Zeile
+
+![Zeile Tabzeile](./zeile-tabzeile.png#small){ align=right }
+
+Ist die Einstellung "Als Tab-Zeile anzeigen" aktiv, so werden alle in der Zeile enthaltenen Spalten in Form von Tabs angezeigt.
+
+<div class="clear"></div>
+
+### Beispiel für Tab-Zeile
+
+![Zeile Tabzeile Beispiel 1](./zeile-tabzeile-bsp1.png)
+
+Beispiel für eine Zeile, die mehrere Spalten als Tab-Zeile anzeigt.
+

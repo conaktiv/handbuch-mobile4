@@ -8,11 +8,11 @@
      ...
    Seiten-Editor:
      ✔ Aufruf @done (20-12-14 09:01)
-     ☐ Vorhandene Seite bearbeiten
+     ✔ Vorhandene Seite bearbeiten @done (20-12-18 14:35)
      ✔ Neue Seite anlegen @done (20-12-14 09:01)
      ☐ Seite bearbeiten
-       ☐ Konfiguration
-       ☐ Strukturansicht
+       ✔ Konfiguration @done (20-12-18 14:35)
+       ✔ Strukturansicht @done (20-12-18 14:35)
        ☐ Bearbeitungsansichten
          ☐ Zeile
          ☐ Spalte
