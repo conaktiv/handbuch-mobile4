@@ -81,7 +81,23 @@ nav:
           - Zeilen: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/zeilen.md
           - Spalten: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/spalten.md
           - Elemente:
-            - Bearbeiten: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/elemente.md
+            - Bearbeiten:
+              - Allgemein: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/elemente.md
+              - Kalender: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-kalender/index.md
+              - Diagramm: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-diagramm/index.md
+              - Datum mit Blätterfunktion: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-tagesauswahl/index.md
+              - Wochenanzeige mit Blätterfunktion: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-wochenauswahl/index.md
+              - Monatsanzeige mit Blätterfunktion: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-monatsauswahl/index.md
+              - HTML Text: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-htmltext/index.md
+              - Zeitbuchungsinformationen: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-zeitbuchungsinformationen/index.md
+              - Urlaub Informationen: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-urlaub-informationen/index.md
+              - Leeres Element: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-leer/index.md
+              - Abmelden: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-abmelden/index.md
+              - Tabelleneditor: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-tabelleneditor/index.md
+              - Benutzer Informationen: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-benutzer-informationen/index.md
+              - Webseite: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-webseite/index.md
+              - Layout: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-layout/index.md
+              - Liste: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-liste/index.md
       - Seite einem Benutzer/Gruppe zuordnen: konfiguration/seiten-editor/seite-zuordnen/index.md
     - Menüleisten-Editor: konfiguration/menueleisten-editor/index.md
     - Darstellungsoptionen-Abschnitt: konfiguration/darstellungsoptionen/index.md
