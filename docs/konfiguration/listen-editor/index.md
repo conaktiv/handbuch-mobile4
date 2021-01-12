@@ -16,6 +16,22 @@ Werte lassen sich (optional auch abhängig von Parametern) mit Farben und Icons 
 
 Darüber hinaus lassen sich die Sortierung/Gruppierung, die Darstellung von Gesamtsummen sowie Direktaktionen einstellen.
 
+## Voraussetzungen für den Aufruf
+
+Um den List-Editor in der ConAktiv® Mobile4 nutzen zu können, sind folgende Voraussetzungen notwendig:
+
+### Rechte
+
+![Recht List-Editor](./listeditor-recht.png#small){ align=right }
+
+Es muss das Recht "Listeditor" -> "Detailkonfiguration erlauben" für den Benutzer oder die Gruppe gesetzt sein.
+
+<div class="clear"></div>
+
+### Lizenz
+
+Der Benutzer muss entweder über eine Komplettlizenz oder die Rolle "Administrator" verfügen.
+
 ## Aufruf des Editors
 
 Über das Menü "Verwaltung" <span class="number">1</span> wird der Listen-Editor <span class="number">2</span> aufgerufen.

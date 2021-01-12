@@ -6,6 +6,22 @@ Jedes Eingabemaske in der ConAktiv® Mobile4 kann mit dem Layout-Editor nahezu b
 
 Es ist auch möglich, für verschiedene Gruppen und Benutzer jeweils eigene Eingabemasken anzulegen und zuzuweisen.
 
+## Voraussetzungen für den Aufruf
+
+Um den Layout-Editor in der ConAktiv® Mobile4 nutzen zu können, sind folgende Voraussetzungen notwendig:
+
+### Rechte
+
+![Recht Layout-Editor](./layouteditor-recht.png#small){ align=right }
+
+Es muss das Recht "Layouteditor" -> "Layouts neu anlegen" für den Benutzer oder die Gruppe gesetzt sein.
+
+<div class="clear"></div>
+
+### Lizenz
+
+Der Benutzer muss entweder über eine Komplettlizenz oder die Rolle "Administrator" verfügen.
+
 ## Aufruf des Editors
 
 Über das Menü "Verwaltung" <span class="number">1</span> wird der Layout-Editor <span class="number">2</span> aufgerufen.
