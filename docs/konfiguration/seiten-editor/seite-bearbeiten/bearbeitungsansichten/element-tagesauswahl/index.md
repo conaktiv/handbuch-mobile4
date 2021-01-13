@@ -70,6 +70,8 @@ Durch Setzen des Hakens bei "Listeneinträge einfärben" kann die Hintergrundfar
 
 Ist die Option "Einfärben" aktiv, kann man bestimmen, welche Farbe als Hintergrundfarbe genutzt werden soll
 
+<div class="clear"></div>
+
 ![Beispiel Einfärben mit Seitenfarbe](./einfaerben-bsp-aktiv-seitenfarbe.png#small){ align=right }
 
 *"Einfärben" mit "Farbe der Seite verwenden"*
@@ -80,7 +82,9 @@ Ist die Option "Einfärben" aktiv, kann man bestimmen, welche Farbe als Hintergr
 
 Wird der Haken bei "Farbe der Seite verwenden" entfernt, erscheint die Schaltfläche "Element einfärben".
 
-Durch Betätigen des Schalters "Farbe" <span class="number secondary">1</span> öffnet sich ein Farbauswahldialog
+Durch Betätigen des Schalters "Farbe" <span class="number secondary">1</span> öffnet sich ein Farbauswahldialog.
+
+<div class="clear"></div>
 
 ![Beispiel Einfärben mit eigener Farbe](./einfaerben-bsp-einfaerben-eigene-farbe.png#small){ align=right }
 

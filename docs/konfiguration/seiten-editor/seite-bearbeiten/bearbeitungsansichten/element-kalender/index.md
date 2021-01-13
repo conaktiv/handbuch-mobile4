@@ -42,7 +42,7 @@ Nur der Zeitraum "Tag" ist aktiv.
 
 ![Zeitraum Beispiel 2](./zeitraeume-bsp-2.png#small){ align=right }
 
-Die Zeiträum "Tag", "Woche" und "Monat" sind aktiv, mit dem "Monat" als Start-Ansicht.
+Die Zeiträume "Tag", "Woche" und "Monat" sind aktiv, mit dem "Monat" als Start-Ansicht.
 
 <div class="clear"></div>
 
