@@ -98,6 +98,8 @@ nav:
             - Layout: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-layout/index.md
             - Liste: konfiguration/seiten-editor/seite-bearbeiten/bearbeitungsansichten/element-liste/index.md
       - Seite einem Benutzer/Gruppe zuordnen: konfiguration/seiten-editor/seite-zuordnen/index.md
+      - FAQ:
+        - Ich möchte eine bestimmte Seite bearbeiten. Wie finde ich diese?: konfiguration/seiten-editor/faq/welche-seite-bearbeiten/index.md
     - Menüleisten-Editor: konfiguration/menueleisten-editor/index.md
     - Darstellungsoptionen-Abschnitt: konfiguration/darstellungsoptionen/index.md
     - Darstellungsoptionen-Editor: konfiguration/darstellungsoptionen-editor/index.md
