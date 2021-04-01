@@ -69,8 +69,8 @@ nav:
       - Eingabemaske einem Benutzer/Gruppe zuordnen: konfiguration/layout-editor/layout-zuordnen/index.md
     - Seiten-Editor:
       - Einleitung: konfiguration/seiten-editor/index.md
-      - Vorhandene Seite bearbeiten: konfiguration/seiten-editor/vorhandene-seite-auswaehlen/index.md
-      - Nutzung des Seiten-Editors:
+      - Vorhandene Seite auswählen: konfiguration/seiten-editor/vorhandene-seite-auswaehlen/index.md
+      - Bearbeitung einer Seite:
         - Aufteilung des Editors: konfiguration/seiten-editor/seite-bearbeiten/index.md
         - Die Werkzeugleiste: konfiguration/seiten-editor/seite-bearbeiten/werkzeugleiste/index.md
         - Konfiguration der Seite:
