@@ -70,7 +70,7 @@ nav:
     - Seiten-Editor:
       - Einleitung: konfiguration/seiten-editor/index.md
       - Vorhandene Seite bearbeiten: konfiguration/seiten-editor/vorhandene-seite-auswaehlen/index.md
-      - Seite bearbeiten, speichern und löschen:
+      - Nutzung des Seiten-Editors:
         - Aufteilung des Editors: konfiguration/seiten-editor/seite-bearbeiten/index.md
         - Die Werkzeugleiste: konfiguration/seiten-editor/seite-bearbeiten/werkzeugleiste/index.md
         - Konfiguration der Seite:
