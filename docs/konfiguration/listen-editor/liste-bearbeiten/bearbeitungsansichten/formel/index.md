@@ -92,16 +92,13 @@ Für die ConAktiv® Mobile4 ist dieses Feld nicht relevant, geben Sie hier einfa
 
 ### <span class="number space-right">3</span> Methode zu Modul zuweisen
 
-Hier muss das Modul ausgewählt werden, für welches Ihre Mobile4 Liste oder Layout erstellt wurde.
+Hier muss das Modul ausgewählt werden, für welches Ihre Mobile4 Liste erstellt wurde.
 
 ### <span class="number space-right">4</span> Wann soll die Methode aufgerufen werden
 
 ![Client Editor Methode Funktion](./client-editor-methode-funktion.png#small){ align=right }
 
-Für Listen und auch für Layouts sollte hier der Punkt "Liste: ListEntryBefore" gewählt werden.
-
-!!! info "Hinweis"
-    Layouts benutzen intern den gleichen Lademechanismus wie Listen, so dass auch hier der Punkt "Liste: ListEntryBefore" gewählt werden sollte.
+Für Listen sollte hier der Punkt "Liste: ListEntryBefore" gewählt werden.
 
 <div class="clear"></div>
 
@@ -111,7 +108,7 @@ Für Listen und auch für Layouts sollte hier der Punkt "Liste: ListEntryBefore"
 
 Nach der Auswahl der Funktion erscheint ein weiteres Element "Aufruf bei Objekt".
 
-Hier muss der Listenname bzw. der Layoutname aus der ConAktiv® Mobile4 eingegeben werden, so wie er im Listen- bzw. Layouteditor angezeigt wird.
+Hier muss der Listenname aus der ConAktiv® Mobile4 eingegeben werden, so wie er im Listen-Editor angezeigt wird.
 
 <div class="clear"></div>
 
