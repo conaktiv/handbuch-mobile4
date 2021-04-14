@@ -1,7 +1,7 @@
 # Formel in Layout anzeigen
 
 !!! warning "Hinweis"
-    Formeln in Layouts funktionieren erst ab der ConAktiv Version 17.6.52.c.
+    Formeln in Layouts funktionieren erst ab der ConAktiv Version 17.6.52.d.
 
 ## Formel im Layout definieren
 
