@@ -92,7 +92,10 @@ Für die ConAktiv® Mobile4 ist dieses Feld nicht relevant, geben Sie hier einfa
 
 ### <span class="number space-right">3</span> Methode zu Modul zuweisen
 
-Hier muss das Modul ausgewählt werden, für welches Ihre Mobile4 Liste erstellt wurde.
+Hier muss das Modul ausgewählt werden, für welches Ihre ConAktiv® Mobile4 Liste erstellt wurde.
+
+!!! warning "Achtung"
+    Wollen Sie eine Formel für den Stundenzettel der ConAktiv® Mobile4 anlegen, wählen Sie hier bitte das Modul **"Stundenliste"** (also nicht "Stunden- und Material eingeben").
 
 ### <span class="number space-right">4</span> Wann soll die Methode aufgerufen werden
 
