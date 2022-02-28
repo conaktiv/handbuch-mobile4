@@ -46,6 +46,8 @@ nav:
             - Datenbankfeld : konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/datenbankfeld/index.md
             - Diagramm : konfiguration/listen-editor/liste-bearbeiten/bearbeitungsansichten/diagramm/index.md
       - Liste einem Benutzer/Gruppe zuordnen: konfiguration/listen-editor/liste-zuordnen/index.md
+      - FAQ:
+        - Ich möchte inaktive Ansprechpartner kennzeichnen. Wie geht das?: konfiguration/listen-editor/faq/inaktive-ansprechpartner-kennzeichnen/index.md
     - Layout-Editor:
       - Einleitung: konfiguration/layout-editor/index.md
       - Eine neue Eingabemaske anlegen: konfiguration/layout-editor/neues-layout-anlegen/index.md
