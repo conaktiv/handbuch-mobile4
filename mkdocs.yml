@@ -18,6 +18,10 @@ nav:
     - Abmelden: arbeiten_mit_conaktiv_mobile/abmelden/index.md
     - Installation als App: arbeiten_mit_conaktiv_mobile/installation-als-app/index.md
     - Aktualisierung erzwingen: arbeiten_mit_conaktiv_mobile/aktualisierung-erzwingen/index.md
+    - Merkmale verwenden:
+      - Einleitung: arbeiten_mit_conaktiv_mobile/merkmale-verwenden/index.md
+      - Merkmalstruktur in der ConAktiv® Desktop App anlegen: arbeiten_mit_conaktiv_mobile/merkmale-verwenden/merkmal-struktur-anlegen/index.md
+      - Merkmale in der ConAktiv® Mobile4 konfigurieren: arbeiten_mit_conaktiv_mobile/merkmale-verwenden/merkmale-in-mobile4-konfigurieren/index.md
   - Konfiguration der Oberfläche:
     - Einleitung:  konfiguration/index.md
     - Listen-Editor:
