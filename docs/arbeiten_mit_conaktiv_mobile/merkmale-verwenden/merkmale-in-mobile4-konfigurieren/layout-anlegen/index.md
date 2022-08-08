@@ -1,5 +1,13 @@
 # Layout anlegen
 
+!!! info
+	Das Anlegen eines Layouts für Merkmale läuft fast genau so ab, wie für jedes andere Modul auch. Die Besonderheit ist, dass eine Merkmalgruppe zugewiesen werden muss ([siehe weiter unten im Text](#merkmalgruppe-zuweisen)).
+
+In diesem Beispiel wollen wir folgende Eingabemaske erstellen:
+
+![Ziel des Projekts - Eingabemaske](../../ziel-eingabe.png)
+
+
 ## Layout-Editor aufrufen
 
 ![Layout anlegen aufrufen](./layout-anlegen-aufrufen.png#small){ align=right }
@@ -68,6 +76,8 @@ Geben Sie in das Feld "Name" links folgenden Wert ein:
 
 ### Merkmalgruppe zuweisen
 
+Das Layout für Merkmale hat die Besonderheit, dass ihm eine Merkmalgruppe zugewiesen werden muss. Dafür existiert ein eigener Bereich "Merkmalegruppe wählen" im Layout-Editor, der nur angezeigt wird, wenn das Layout für das Modul "Merkmale" erstellt wird.
+
 Im Kapitel "[Merkmalstruktur in der ConAktiv® Desktop App anlegen](../../merkmal-struktur-anlegen/index.md)" haben wir für das Modul Projekte die Merkmalsgruppe "Ansprechpartner" angelegt.
 
 ![Merkmalgruppe zuweisen](./merkmalgruppe-zuweisen.png#small){ align=right }
@@ -82,3 +92,5 @@ Da unser Layout für diese Merkmalgruppe vorgesehen ist, wählen Sie bitte auf d
 ![Speichern](./speichern.png)
 
 Zu guter Letzt speichern wir unser Layout durch Betätigen der "Speichern"-Schaltfläche rechts oben im Editor.
+
+[Im nächsten Abschnitt](../liste-anlegen/index.md) geht es an die Erstellung der Liste für die Merkmalgruppe "Ansprechpartner".
