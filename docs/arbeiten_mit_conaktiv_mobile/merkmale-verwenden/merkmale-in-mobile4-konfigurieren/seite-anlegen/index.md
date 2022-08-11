@@ -117,11 +117,19 @@ Es öffnet sich eine Aufklappfenster, in dem Sie den Eintrag "Liste" wählen.
 
 #### Anzeige konfigurieren
 
-![Konfigurationsoption großer Kopfbereich](./liste-grosser-kopfbereich.png#small){ align=right }
+![Konfigurationsoption Reiter Name](./reiter-name.png#small){ align=right }
 
 Durch das Setzen des Typs erscheinen eine Menge neuer Optionen unterhalb der Schaltfläche.
 
-Aktivieren Sie als erstes die Darstellungsoption "Großen Kopfbereich verwenden".
+Im ersten Schritt vergeben wir für unseren neuen Reiter einen Namen. Geben Sie in das Feld "Eigener Titel" folgenden Text ein:
+
+	Ansprechpartner
+
+<div class="clear"></div>
+
+![Konfigurationsoption großer Kopfbereich](./liste-grosser-kopfbereich.png#small){ align=right }
+
+Aktivieren Sie 	als nächstes die Darstellungsoption "Großen Kopfbereich verwenden".
 
 Diese sorgt dafür, dass unser neuer Reiter optisch zu den vorhandenen Reitern passt.
 

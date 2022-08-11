@@ -1,7 +1,7 @@
 # Merkmale verwenden
 
 !!! version "Hinweis"
-	Merkmale in der ConAktiv® Mobile4 werden ab der ConAktiv® Version 19.0.30.a unterstützt.
+	Merkmale in der ConAktiv® Mobile4 werden ab der ConAktiv® Version 19.0.31.a unterstützt. Verwenden Sie für dieses Tutorial jedoch bitte die Version **19.0.33.a**, um alle Funktionen zur Verfügung zu haben.
 
 
 ## Was sind Merkmale?
