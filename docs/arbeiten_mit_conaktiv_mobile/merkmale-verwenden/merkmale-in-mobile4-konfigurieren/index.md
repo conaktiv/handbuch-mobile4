@@ -1,6 +1,6 @@
 # Merkmale in der ConAktiv® Mobile4 konfigurieren
 
-Da sich in der Praxis jede Merkmalgruppe unterscheidet, ist es notwendig, eine eigenes Layout sowie eine Liste anzulegen.
+Da sich in der Praxis jede Merkmalgruppe unterscheidet, ist es notwendig, ein eigenes Layout sowie eine Liste anzulegen.
 
 Außerdem müssen die Liste und das Layout noch in eine Seite integriert werden (im Beispiel in die Seite für Projekte).
 

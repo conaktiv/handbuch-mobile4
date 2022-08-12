@@ -1,4 +1,4 @@
-# Seite für Produkte anlegen und um Merkmalliste erweitern
+# Seite für Projekte anlegen und um Merkmalliste erweitern
 
 Um die Merkmalliste und das Layout anzuzeigen, müssen diese noch eingebunden werden.
 

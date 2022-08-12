@@ -7,6 +7,13 @@ In diesem Beispiel wollen wir folgende Eingabemaske erstellen:
 
 ![Ziel des Projekts - Eingabemaske](../../ziel-eingabe.png)
 
+* Das Eingabefeld "Bereich" ist eigentlich die Merkmaluntergruppe mit einem angepassten Titel.
+* Das Eingabefeld "Funktion" ist das Merkmal mit angepasstem Titel
+* Hinter "Ansprechpartner" verbirgt sich die verknüpfte Tabelle
+
+!!! info
+	Alle diese Felder sind **optional**. Es können auch andere Felder direkt aus dem Modul "Merkmale" oder aus dem Hauptmodul "Projekt" eingebaut werden.
+
 
 ## Layout-Editor aufrufen
 
