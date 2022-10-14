@@ -116,6 +116,9 @@ nav:
     - Menüleisten-Editor: konfiguration/menueleisten-editor/index.md
     - Darstellungsoptionen-Abschnitt: konfiguration/darstellungsoptionen/index.md
     - Darstellungsoptionen-Editor: konfiguration/darstellungsoptionen-editor/index.md
+  - FAQ:
+    - Übersicht: faq/index.md
+    - Projektmaterialerfassung warum sind Artikel nicht sichtbar?: faq/projektmaterialerfassung/artikel_nicht_sichtbar.md
 theme:
   name: material
   language: de
