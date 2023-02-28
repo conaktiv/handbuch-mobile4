@@ -86,6 +86,24 @@ Damit ist die Druckfunktion eingerichtet und Sie können über das Druckcenter i
 
     <div class="clear"></div>
 
+
+## Hinweise zum Herunterladen bzw- Speichern als PDF
+
+In den Browsern Chrome und Edge und anderen Chromium basierten Browsern, nicht aber in Firefox und Safari, funktioniert der Knopf "herunterladen" leider nicht.
+
+Wenn Sie einen Ausdruck über die Mobile als PDF speichern möchten, müssen Sie in diesen Browsern wie folgt vorgehen:
+
+Erzeugen Sie wie gewohnt ihr gewünschtes Dokument und lassen Sie es sich anzeigen (siehe weiter Unten für die verschiedenen Optionen und die Vorgehensweise)
+
+Klicken Sie im angezeigten Dokument oben Rechts auf Drucken <span class="number">1</span>
+
+![Druckcenter Dokument Drucken Knopf](./druckcenter_dokument_drucken_knopf.png)
+
+Im Druckdialog wählen Sie als Ziel "Als PDF speichern" <span class="number">2</span> und klicken anschließend auf Speichern <span class="number">3</span>
+
+![Druckcenter Dokument Drucken PDF speichern](./druckcenter_dokument_drucken_pdf_speichern.png)
+
+
 ## Stundennachweis
 
 Der Stundennachweis wird für den angemeldeten Mitarbeiter für einen Monat zusammengefasst.

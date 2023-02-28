@@ -1,2 +1,3 @@
 site/
 docker/ssh/
+docker/.DS_Store
